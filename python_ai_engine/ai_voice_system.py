@@ -20,7 +20,7 @@ ENGINE_NAME = "VIDYAVERSE CORE"
 MIC_INDEX = 1   
 
 # KEYS
-GEMINI_API_KEY = "AIzaSyBq6GFOQ_bYcf5cv-LrREMSWQ92ykmISoE" 
+GEMINI_API_KEY = "Your_Google_API_Key_Here" # Replace with your actual API key Due to Security, I cannot provide a real key. You must obtain your own from Google Cloud Console.    
 
 STATUS_FILE = "system_status.json"
 MEMORY_FILE = "brain_memory.json"
