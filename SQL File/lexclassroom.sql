@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Feb 16, 2026 at 01:16 PM
+-- Generation Time: Jun 16, 2026 at 07:26 PM
 -- Server version: 10.4.32-MariaDB
 -- PHP Version: 8.2.12
 
@@ -38,7 +38,10 @@ CREATE TABLE `batches` (
 --
 
 INSERT INTO `batches` (`id`, `CourseID`, `batch_name`) VALUES
-(3, 1, 'Sem 1 - Sec A');
+(3, 1, 'Sem 1 - Sec A'),
+(4, 3, 'Sem 1 - Sec A'),
+(5, 3, 'Sem 1 - Sec B'),
+(6, 3, 'Sem 1 - Sec C');
 
 -- --------------------------------------------------------
 
@@ -52,6 +55,35 @@ CREATE TABLE `classrooms` (
   `capacity` int(11) NOT NULL,
   `CourseID` int(11) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+--
+-- Dumping data for table `classrooms`
+--
+
+INSERT INTO `classrooms` (`id`, `room_name_or_number`, `capacity`, `CourseID`) VALUES
+(5, '401', 60, 3);
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `class_attendance`
+--
+
+CREATE TABLE `class_attendance` (
+  `id` int(11) NOT NULL,
+  `student_id` int(11) NOT NULL,
+  `timetable_id` int(11) NOT NULL,
+  `attendance_date` date NOT NULL,
+  `scan_time` time NOT NULL,
+  `status` varchar(20) DEFAULT 'present'
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+--
+-- Dumping data for table `class_attendance`
+--
+
+INSERT INTO `class_attendance` (`id`, `student_id`, `timetable_id`, `attendance_date`, `scan_time`, `status`) VALUES
+(1, 3, 135, '2026-06-10', '11:27:52', 'present');
 
 -- --------------------------------------------------------
 
@@ -133,6 +165,15 @@ CREATE TABLE `notifications` (
   `created_at` timestamp NOT NULL DEFAULT current_timestamp()
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
+--
+-- Dumping data for table `notifications`
+--
+
+INSERT INTO `notifications` (`id`, `user_id`, `user_type`, `message`, `is_read`, `created_at`) VALUES
+(1, 2, 'teacher', 'Reminder: Your <strong>OPREATING SYSTEM</strong> class for batch <strong>Sem 1 - Sec A</strong> in Room <strong>401</strong> starts at 12:00 PM.', 0, '2026-06-10 05:42:55'),
+(2, 3, 'student', 'Upcoming: <strong>OPREATING SYSTEM</strong> with Prof. Kaushik Ghosh in Room <strong>401</strong> at 12:00 PM.', 1, '2026-06-10 05:42:55'),
+(3, 2, 'teacher', 'Reminder: Your <strong>OPREATING SYSTEM</strong> class for batch <strong>Sem 1 - Sec B</strong> in Room <strong>401</strong> starts at 12:00 PM.', 0, '2026-06-10 05:42:55');
+
 -- --------------------------------------------------------
 
 --
@@ -141,11 +182,47 @@ CREATE TABLE `notifications` (
 
 CREATE TABLE `student_attendance` (
   `id` int(11) NOT NULL,
-  `timetable_schedule_id` int(11) NOT NULL,
   `student_id` int(11) NOT NULL,
-  `status` enum('present','absent') NOT NULL DEFAULT 'absent',
-  `attendance_time` timestamp NOT NULL DEFAULT current_timestamp()
+  `attendance_date` date NOT NULL,
+  `check_in_time` time DEFAULT NULL,
+  `check_out_time` time DEFAULT NULL,
+  `status` varchar(20) DEFAULT 'absent'
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+--
+-- Dumping data for table `student_attendance`
+--
+
+INSERT INTO `student_attendance` (`id`, `student_id`, `attendance_date`, `check_in_time`, `check_out_time`, `status`) VALUES
+(1, 3, '2026-06-10', '11:27:04', '11:29:44', 'present');
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `system_settings`
+--
+
+CREATE TABLE `system_settings` (
+  `setting_key` varchar(50) NOT NULL,
+  `setting_value` varchar(100) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+--
+-- Dumping data for table `system_settings`
+--
+
+INSERT INTO `system_settings` (`setting_key`, `setting_value`) VALUES
+('checkin_end', '09:30'),
+('checkin_start', '00:00'),
+('checkout_end', '18:00'),
+('checkout_start', '16:00'),
+('enforce_time_windows', '0'),
+('maintenance_mode', '0'),
+('stu_checkin_end', '10:00'),
+('stu_checkin_start', '08:00'),
+('stu_checkout_end', '17:00'),
+('stu_checkout_start', '15:00'),
+('stu_enforce_mode', 'open');
 
 -- --------------------------------------------------------
 
@@ -202,6 +279,32 @@ INSERT INTO `tblassigment` (`ID`, `Tid`, `Cid`, `Sid`, `AssignmentNumber`, `Assi
 -- --------------------------------------------------------
 
 --
+-- Table structure for table `tblaudit_logs`
+--
+
+CREATE TABLE `tblaudit_logs` (
+  `id` int(11) NOT NULL,
+  `user_id` varchar(50) DEFAULT NULL,
+  `action` varchar(50) NOT NULL,
+  `ip_address` varchar(45) NOT NULL,
+  `timestamp` datetime DEFAULT current_timestamp()
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+--
+-- Dumping data for table `tblaudit_logs`
+--
+
+INSERT INTO `tblaudit_logs` (`id`, `user_id`, `action`, `ip_address`, `timestamp`) VALUES
+(1, 'admin', 'login_success', '::1', '2026-05-24 21:40:37'),
+(2, 'admin', 'login_success', '::1', '2026-05-30 01:01:34'),
+(3, 'admin', 'login_success', '::1', '2026-06-07 23:01:12'),
+(4, 'admin', 'login_success', '::1', '2026-06-07 23:02:43'),
+(5, 'admin', 'login_success', '::1', '2026-06-10 01:08:35'),
+(6, 'admin', 'login_success', '::1', '2026-06-10 11:23:38');
+
+-- --------------------------------------------------------
+
+--
 -- Table structure for table `tblcourse`
 --
 
@@ -216,8 +319,9 @@ CREATE TABLE `tblcourse` (
 --
 
 INSERT INTO `tblcourse` (`ID`, `BranchName`, `CourseName`) VALUES
-(1, 'Information Technology', 'B.Tech'),
-(2, 'computer science', 'B.Tech');
+(3, 'CSE', 'B.Tech'),
+(4, 'IT', 'B.Tech'),
+(5, 'ECE', 'B.Tech');
 
 -- --------------------------------------------------------
 
@@ -237,14 +341,6 @@ CREATE TABLE `tblexams` (
   `TotalQuestions` int(11) NOT NULL DEFAULT 0,
   `CreationDate` timestamp NULL DEFAULT current_timestamp()
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
-
---
--- Dumping data for table `tblexams`
---
-
-INSERT INTO `tblexams` (`ID`, `ExamTitle`, `CourseID`, `SubjectID`, `BatchID`, `ExamDate`, `Duration`, `TotalMarks`, `TotalQuestions`, `CreationDate`) VALUES
-(5, 'FINAL SEMESTER', 1, 2, 0, '2025-12-21 23:40:31', 34, 23, 4, '2025-12-16 18:46:50'),
-(7, 'Semester', 1, 2, 0, '2026-02-11 01:45:04', 0, 30, 4, '2025-12-21 18:14:37');
 
 -- --------------------------------------------------------
 
@@ -305,20 +401,6 @@ CREATE TABLE `tblexam_questions` (
   `QuestionMarks` decimal(5,2) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
---
--- Dumping data for table `tblexam_questions`
---
-
-INSERT INTO `tblexam_questions` (`ID`, `ExamID`, `QuestionID`, `SectionName`, `QuestionMarks`) VALUES
-(14, 5, 1, 'Section A (Answer 1)', 3.00),
-(15, 5, 2, 'Section B (Answer 1)', 5.00),
-(16, 5, 3, 'Section C (Answer 1)', 15.00),
-(17, 5, 4, 'Section C (Answer 1)', 15.00),
-(21, 7, 4, 'Section A (Answer 1)', 15.00),
-(22, 7, 3, 'Section A (Answer 1)', 15.00),
-(23, 7, 1, 'Section B (Answer 1)', 5.00),
-(24, 7, 2, 'Section C (Answer 1)', 10.00);
-
 -- --------------------------------------------------------
 
 --
@@ -349,9 +431,29 @@ CREATE TABLE `tblexam_sessions` (
 
 INSERT INTO `tblexam_sessions` (`ID`, `ExamID`, `StudentID`, `StartTime`, `EndTime`, `Score`, `Status`, `TabSwitchCount`, `LastSnapshot`, `MovementWarnings`, `TeacherWarningMsg`, `IsReportedByTeacher`, `LiveSnapshot`, `AdminMessage`, `LastHeartbeat`) VALUES
 (1, 2, 3, '2025-12-15 20:46:43', '2025-12-15 20:53:02', 1, 'Completed', 4, NULL, NULL, NULL, 0, NULL, NULL, NULL),
-(2, 1, 3, '2025-12-15 21:01:20', '2025-12-15 21:11:42', 3, 'Terminated', 5, NULL, NULL, NULL, 0, NULL, 'Admin Action: Disqualified due to suspicious behavior.', NULL),
-(5, 5, 3, '2025-12-17 00:20:42', '2025-12-17 00:47:55', 1, '', 3, 'evidence/snap_5_1766340717.jpg', 14, NULL, 0, NULL, NULL, '2025-12-21 23:41:57'),
-(6, 7, 3, '2025-12-21 23:44:48', '2025-12-21 23:45:52', 1, '', 3, 'evidence/snap_6_1766340952.jpg', 7, NULL, 0, NULL, NULL, '2025-12-21 23:45:52');
+(2, 1, 3, '2025-12-15 21:01:20', '2025-12-15 21:11:42', 3, 'Terminated', 5, NULL, NULL, NULL, 0, NULL, 'Admin Action: Disqualified due to suspicious behavior.', NULL);
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `tblfeedback`
+--
+
+CREATE TABLE `tblfeedback` (
+  `ID` int(11) NOT NULL,
+  `FullName` varchar(100) DEFAULT NULL,
+  `Email` varchar(100) DEFAULT NULL,
+  `Role` varchar(50) DEFAULT NULL,
+  `Message` text DEFAULT NULL,
+  `CreationDate` timestamp NOT NULL DEFAULT current_timestamp()
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+--
+-- Dumping data for table `tblfeedback`
+--
+
+INSERT INTO `tblfeedback` (`ID`, `FullName`, `Email`, `Role`, `Message`, `CreationDate`) VALUES
+(1, 'k', 'kaushik3389@gmail.com', 'Prospective Student', 'ws', '2026-06-07 16:14:00');
 
 -- --------------------------------------------------------
 
@@ -422,7 +524,8 @@ INSERT INTO `tbllivesession` (`ID`, `TeacherID`, `CourseID`, `StartTime`, `Statu
 (8, 2, 1, '2025-12-16 18:09:29', 'Ended'),
 (9, 2, 0, '2025-12-17 00:00:12', 'Ended'),
 (10, 2, 0, '2025-12-21 23:49:24', 'Ended'),
-(11, 2, 1, '2025-12-22 11:29:26', 'Ended');
+(11, 2, 1, '2025-12-22 11:29:26', 'Ended'),
+(12, 2, 0, '2026-06-07 22:19:30', 'Ended');
 
 -- --------------------------------------------------------
 
@@ -443,7 +546,8 @@ CREATE TABLE `tblnews` (
 
 INSERT INTO `tblnews` (`ID`, `Title`, `Description`, `CreationDate`) VALUES
 (1, 'SIH GRAND FINALE', 'SIH Grand Finale to be held from 20th December 2025 - 23rd December 2025', '2025-12-15 17:15:05'),
-(2, 'CA4 EXAMS', 'TO BE HELD FROM 4TH MARCH', '2026-02-10 20:12:07');
+(2, 'CA4 EXAMS', 'TO BE HELD FROM 4TH MARCH', '2026-02-10 20:12:07'),
+(4, 'TEKATHON 2K26', 'TEKATHON 2K26 Grand Finale to be held on 13th May 2026', '2026-05-29 20:09:59');
 
 -- --------------------------------------------------------
 
@@ -526,7 +630,10 @@ CREATE TABLE `tblsubject` (
 --
 
 INSERT INTO `tblsubject` (`ID`, `CourseID`, `Semester`, `SubjectFullname`, `SubjectShortname`, `SubjectCode`, `HoursPerWeek`) VALUES
-(2, 1, '1', 'OPREATING SYSTEM', 'OS', 'PCCCS209', 4);
+(2, 1, '1', 'OPREATING SYSTEM', 'OS', 'PCCCS209', 4),
+(3, 3, '1', 'Image Processing', 'IP', 'CS201', 4),
+(4, 3, '1', 'C Programming', 'C', 'CS202', 4),
+(5, 3, '1', 'OPREATING SYSTEM', 'OS', 'CS203', 4);
 
 -- --------------------------------------------------------
 
@@ -560,7 +667,8 @@ INSERT INTO `tblsurveys` (`ID`, `TeacherID`, `CourseID`, `IsActive`, `CreatedAt`
 (11, 2, 1, 0, '2025-12-17 00:55:31'),
 (12, 2, 1, 0, '2025-12-17 16:50:14'),
 (13, 2, 2, 1, '2025-12-28 18:06:07'),
-(14, 2, 1, 1, '2026-02-11 01:45:49');
+(14, 2, 1, 1, '2026-02-11 01:45:49'),
+(15, 2, 3, 1, '2026-06-07 22:15:47');
 
 -- --------------------------------------------------------
 
@@ -619,7 +727,7 @@ CREATE TABLE `tblteacher` (
 --
 
 INSERT INTO `tblteacher` (`ID`, `TeacherName`, `EmpID`, `qr_code_identifier`, `FirstName`, `LastName`, `MobileNumber`, `Email`, `Gender`, `Dob`, `Password`, `ProfilePic`, `CourseID`, `Religion`, `Address`, `RegDate`, `Cid`) VALUES
-(2, 'Kaushik Ghosh', 'KG01', 'TCHR_5741a37001da02df', 'Kaushik', 'Ghosh', '8249812808', 'kaushik3389@gmail.com', 'Male', '2004-08-04', 'e807f1fcf82d132f9bb018ca6738a19f', 'c050b276e665d46d5fb3b641a8e97abf1765030496.jpg', 1, 'Hindu', 'MAHANADI GARDENS BLOCK-C ROOM NO.-12, JODA WEST, JODA, KEONJHAR', '2025-12-06', NULL);
+(2, 'Kaushik Ghosh', 'KG01', 'TCHR_5741a37001da02df', 'Kaushik', 'Ghosh', '8249812808', 'kaushik3389@gmail.com', 'Male', '2004-08-04', 'e807f1fcf82d132f9bb018ca6738a19f', 'c050b276e665d46d5fb3b641a8e97abf1765030496.jpg', 3, 'Hindu', 'MAHANADI GARDENS BLOCK-C ROOM NO.-12, JODA WEST, JODA, KEONJHAR', '2025-12-06', NULL);
 
 -- --------------------------------------------------------
 
@@ -666,7 +774,8 @@ CREATE TABLE `tblteacher_subjects` (
 --
 
 INSERT INTO `tblteacher_subjects` (`ID`, `TeacherID`, `SubjectID`) VALUES
-(3, 2, 2);
+(13, 2, 5),
+(14, 2, 4);
 
 -- --------------------------------------------------------
 
@@ -722,7 +831,7 @@ CREATE TABLE `tbluser` (
 --
 
 INSERT INTO `tbluser` (`ID`, `FullName`, `MobileNumber`, `DOB`, `Email`, `Cid`, `RollNumber`, `qr_code_identifier`, `batch_id`, `Password`, `RegDate`, `FaceEncoding`, `UserImage`) VALUES
-(3, 'Kaushik Ghosh', 1234567890, NULL, 'myselfsambhunath@gmail.com', 1, '0987654321', 'c64204d3995b693b19377c524088e392', 3, 'e807f1fcf82d132f9bb018ca6738a19f', '2025-11-06 11:58:50', '[-0.1508849561214447, 0.009320472367107868, 0.08256363868713379, -0.0006000746507197618, -0.013923399150371552, -0.07118219137191772, 0.017245490103960037, -0.07920938730239868, 0.13529087603092194, -0.08205574750900269, 0.19456937909126282, -0.004788772203028202, -0.16734905540943146, -0.09395479410886765, 0.03170356526970863, 0.06462079286575317, -0.1027112752199173, -0.10582851618528366, -0.018844977021217346, -0.10443690419197083, 0.04856906086206436, 0.020321227610111237, 0.01823398470878601, 0.03691716492176056, -0.12646722793579102, -0.34743744134902954, -0.07982786744832993, -0.1478746384382248, 0.0307206679135561, -0.034699615091085434, 0.0849185511469841, 0.03518126904964447, -0.20098964869976044, -0.02968953549861908, -0.03106454201042652, 0.06128799170255661, 0.0071403998881578445, 0.0008564358577132225, 0.20922133326530457, -0.022637829184532166, -0.13413219153881073, -0.09448569267988205, -0.008936405181884766, 0.24376356601715088, 0.07237054407596588, 0.046863045543432236, 0.029262054711580276, -0.030765298753976822, 0.04242820292711258, -0.23331396281719208, 0.1123916432261467, 0.12288947403430939, 0.07781144231557846, 0.012411529198288918, 0.03482609987258911, -0.09706644713878632, 0.03843851387500763, 0.012222547084093094, -0.1927202045917511, 0.08357428759336472, 0.08091223239898682, -0.04865426570177078, -0.06994614005088806, 0.017050916329026222, 0.26161864399909973, 0.09403079003095627, -0.09420685470104218, -0.06587833166122437, 0.13813067972660065, -0.1462693214416504, -0.022205397486686707, 0.06426962465047836, -0.10699522495269775, -0.1734459102153778, -0.2761518955230713, 0.08344543725252151, 0.43411552906036377, 0.13378052413463593, -0.18710258603096008, 0.012312844395637512, -0.1810290515422821, 0.035757772624492645, 0.16902007162570953, 0.03145172446966171, -0.035725187510252, -0.01088645774871111, -0.10430818051099777, 0.05946583300828934, 0.1521613895893097, 0.0027198679745197296, -0.11955620348453522, 0.15272516012191772, 0.019597480073571205, 0.046771518886089325, 0.010585903190076351, 0.00551711255684495, -0.033945243805646896, -0.028052575886249542, -0.10164355486631393, -0.021393585950136185, 0.10965092480182648, 0.05378110706806183, 0.015989184379577637, 0.12687379121780396, -0.1574660837650299, 0.1566983014345169, 0.03524959087371826, -0.055043723434209824, 0.06899215281009674, 0.07157100737094879, -0.15693296492099762, -0.10717277228832245, 0.10857164114713669, -0.19470973312854767, 0.17310135066509247, 0.1250462830066681, -0.011245634406805038, 0.17524544894695282, 0.0510169118642807, 0.08281503617763519, -0.024961885064840317, -0.042278505861759186, -0.16253487765789032, -0.0361114926636219, 0.07068263739347458, 0.029890701174736023, 0.0810069739818573, 0.013441303744912148]', 'face_3_1767784791.jpg');
+(3, 'Kaushik Ghosh', 1234567890, NULL, 'myselfsambhunath@gmail.com', 1, '0987654321', 'STU_bf35f814c58423e8', 4, 'e807f1fcf82d132f9bb018ca6738a19f', '2025-11-06 11:58:50', '[-0.1508849561214447, 0.009320472367107868, 0.08256363868713379, -0.0006000746507197618, -0.013923399150371552, -0.07118219137191772, 0.017245490103960037, -0.07920938730239868, 0.13529087603092194, -0.08205574750900269, 0.19456937909126282, -0.004788772203028202, -0.16734905540943146, -0.09395479410886765, 0.03170356526970863, 0.06462079286575317, -0.1027112752199173, -0.10582851618528366, -0.018844977021217346, -0.10443690419197083, 0.04856906086206436, 0.020321227610111237, 0.01823398470878601, 0.03691716492176056, -0.12646722793579102, -0.34743744134902954, -0.07982786744832993, -0.1478746384382248, 0.0307206679135561, -0.034699615091085434, 0.0849185511469841, 0.03518126904964447, -0.20098964869976044, -0.02968953549861908, -0.03106454201042652, 0.06128799170255661, 0.0071403998881578445, 0.0008564358577132225, 0.20922133326530457, -0.022637829184532166, -0.13413219153881073, -0.09448569267988205, -0.008936405181884766, 0.24376356601715088, 0.07237054407596588, 0.046863045543432236, 0.029262054711580276, -0.030765298753976822, 0.04242820292711258, -0.23331396281719208, 0.1123916432261467, 0.12288947403430939, 0.07781144231557846, 0.012411529198288918, 0.03482609987258911, -0.09706644713878632, 0.03843851387500763, 0.012222547084093094, -0.1927202045917511, 0.08357428759336472, 0.08091223239898682, -0.04865426570177078, -0.06994614005088806, 0.017050916329026222, 0.26161864399909973, 0.09403079003095627, -0.09420685470104218, -0.06587833166122437, 0.13813067972660065, -0.1462693214416504, -0.022205397486686707, 0.06426962465047836, -0.10699522495269775, -0.1734459102153778, -0.2761518955230713, 0.08344543725252151, 0.43411552906036377, 0.13378052413463593, -0.18710258603096008, 0.012312844395637512, -0.1810290515422821, 0.035757772624492645, 0.16902007162570953, 0.03145172446966171, -0.035725187510252, -0.01088645774871111, -0.10430818051099777, 0.05946583300828934, 0.1521613895893097, 0.0027198679745197296, -0.11955620348453522, 0.15272516012191772, 0.019597480073571205, 0.046771518886089325, 0.010585903190076351, 0.00551711255684495, -0.033945243805646896, -0.028052575886249542, -0.10164355486631393, -0.021393585950136185, 0.10965092480182648, 0.05378110706806183, 0.015989184379577637, 0.12687379121780396, -0.1574660837650299, 0.1566983014345169, 0.03524959087371826, -0.055043723434209824, 0.06899215281009674, 0.07157100737094879, -0.15693296492099762, -0.10717277228832245, 0.10857164114713669, -0.19470973312854767, 0.17310135066509247, 0.1250462830066681, -0.011245634406805038, 0.17524544894695282, 0.0510169118642807, 0.08281503617763519, -0.024961885064840317, -0.042278505861759186, -0.16253487765789032, -0.0361114926636219, 0.07068263739347458, 0.029890701174736023, 0.0810069739818573, 0.013441303744912148]', 'face_3_1767784791.jpg');
 
 -- --------------------------------------------------------
 
@@ -769,7 +878,9 @@ INSERT INTO `tbl_live_attendance` (`StudentID`, `Date`, `SlotID`, `FirstSeen`, `
 (3, '2026-01-11', 999, '02:00:28', '02:00:28', 'Present'),
 (3, '2026-01-15', 999, '00:05:57', '00:05:57', 'Present'),
 (3, '2026-02-07', 999, '00:18:26', '00:18:26', 'Present'),
-(3, '2026-02-11', 999, '01:39:53', '01:39:53', 'Present');
+(3, '2026-02-11', 999, '01:39:53', '01:39:53', 'Present'),
+(3, '2026-05-24', 999, '17:53:33', '17:53:33', 'Present'),
+(3, '2026-05-30', 999, '01:25:04', '01:25:04', 'Present');
 
 -- --------------------------------------------------------
 
@@ -810,6 +921,13 @@ CREATE TABLE `teacher_attendance` (
   `status` enum('present','absent') NOT NULL DEFAULT 'absent'
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
+--
+-- Dumping data for table `teacher_attendance`
+--
+
+INSERT INTO `teacher_attendance` (`id`, `teacher_id`, `attendance_date`, `check_in_time`, `check_out_time`, `status`) VALUES
+(1, 2, '2026-06-10', '01:34:27', '01:34:38', 'present');
+
 -- --------------------------------------------------------
 
 --
@@ -833,36 +951,100 @@ CREATE TABLE `timetable_schedule` (
 --
 
 INSERT INTO `timetable_schedule` (`id`, `version_id`, `batch_id`, `day_of_week`, `start_time`, `end_time`, `subject_id`, `teacher_id`, `classroom_id`) VALUES
-(1, NULL, 3, 'Monday', '09:00:00', '10:00:00', 2, 2, 1),
-(2, NULL, 3, 'Monday', '10:00:00', '11:00:00', 2, 2, 1),
-(3, NULL, 3, 'Monday', '11:00:00', '12:00:00', 2, 2, 1),
-(4, NULL, 3, 'Monday', '12:00:00', '13:00:00', 2, 2, 1),
-(5, NULL, 3, 'Monday', '14:00:00', '15:00:00', 2, 2, 1),
-(6, NULL, 3, 'Monday', '15:00:00', '16:00:00', 2, 2, 1),
-(7, NULL, 3, 'Tuesday', '09:00:00', '10:00:00', 2, 2, 1),
-(8, NULL, 3, 'Tuesday', '10:00:00', '11:00:00', 2, 2, 1),
-(9, NULL, 3, 'Tuesday', '11:00:00', '12:00:00', 2, 2, 1),
-(10, NULL, 3, 'Tuesday', '12:00:00', '13:00:00', 2, 2, 1),
-(11, NULL, 3, 'Tuesday', '14:00:00', '15:00:00', 2, 2, 1),
-(12, NULL, 3, 'Tuesday', '15:00:00', '16:00:00', 2, 2, 1),
-(13, NULL, 3, 'Wednesday', '09:00:00', '10:00:00', 2, 2, 1),
-(14, NULL, 3, 'Wednesday', '10:00:00', '11:00:00', 2, 2, 1),
-(15, NULL, 3, 'Wednesday', '11:00:00', '12:00:00', 2, 2, 1),
-(16, NULL, 3, 'Wednesday', '12:00:00', '13:00:00', 2, 2, 1),
-(17, NULL, 3, 'Wednesday', '14:00:00', '15:00:00', 2, 2, 1),
-(18, NULL, 3, 'Wednesday', '15:00:00', '16:00:00', 2, 2, 1),
-(19, NULL, 3, 'Thursday', '09:00:00', '10:00:00', 2, 2, 1),
-(20, NULL, 3, 'Thursday', '10:00:00', '11:00:00', 2, 2, 1),
-(21, NULL, 3, 'Thursday', '11:00:00', '12:00:00', 2, 2, 1),
-(22, NULL, 3, 'Thursday', '12:00:00', '13:00:00', 2, 2, 1),
-(23, NULL, 3, 'Thursday', '14:00:00', '15:00:00', 2, 2, 1),
-(24, NULL, 3, 'Thursday', '15:00:00', '16:00:00', 2, 2, 1),
-(25, NULL, 3, 'Friday', '09:00:00', '10:00:00', 2, 2, 1),
-(26, NULL, 3, 'Friday', '10:00:00', '11:00:00', 2, 2, 1),
-(27, NULL, 3, 'Friday', '11:00:00', '12:00:00', 2, 2, 1),
-(28, NULL, 3, 'Friday', '12:00:00', '13:00:00', 2, 2, 1),
-(29, NULL, 3, 'Friday', '14:00:00', '15:00:00', 2, 2, 1),
-(30, NULL, 3, 'Friday', '15:00:00', '16:00:00', 2, 2, 1);
+(61, NULL, 3, 'Monday', '09:00:00', '10:00:00', 2, 2, 5),
+(62, NULL, 3, 'Monday', '10:00:00', '11:00:00', 2, 2, 1),
+(63, NULL, 3, 'Monday', '11:00:00', '12:00:00', 2, 2, 1),
+(64, NULL, 3, 'Monday', '12:00:00', '13:00:00', 2, 2, 1),
+(65, NULL, 3, 'Monday', '14:00:00', '15:00:00', 2, 2, 1),
+(66, NULL, 3, 'Monday', '15:00:00', '16:00:00', 2, 2, 1),
+(67, NULL, 3, 'Tuesday', '09:00:00', '10:00:00', 2, 2, 1),
+(68, NULL, 3, 'Tuesday', '10:00:00', '11:00:00', 2, 2, 1),
+(69, NULL, 3, 'Tuesday', '11:00:00', '12:00:00', 2, 2, 1),
+(70, NULL, 3, 'Tuesday', '12:00:00', '13:00:00', 2, 2, 1),
+(71, NULL, 3, 'Tuesday', '14:00:00', '15:00:00', 2, 2, 1),
+(72, NULL, 3, 'Tuesday', '15:00:00', '16:00:00', 2, 2, 1),
+(73, NULL, 3, 'Wednesday', '09:00:00', '10:00:00', 2, 2, 1),
+(74, NULL, 3, 'Wednesday', '10:00:00', '11:00:00', 2, 2, 1),
+(75, NULL, 3, 'Wednesday', '11:00:00', '12:00:00', 2, 2, 1),
+(76, NULL, 3, 'Wednesday', '12:00:00', '13:00:00', 2, 2, 1),
+(77, NULL, 3, 'Wednesday', '14:00:00', '15:00:00', 2, 2, 1),
+(78, NULL, 3, 'Wednesday', '15:00:00', '16:00:00', 2, 2, 1),
+(79, NULL, 3, 'Thursday', '09:00:00', '10:00:00', 2, 2, 1),
+(80, NULL, 3, 'Thursday', '10:00:00', '11:00:00', 2, 2, 1),
+(81, NULL, 3, 'Thursday', '11:00:00', '12:00:00', 2, 2, 1),
+(82, NULL, 3, 'Thursday', '12:00:00', '13:00:00', 2, 2, 1),
+(83, NULL, 3, 'Thursday', '14:00:00', '15:00:00', 2, 2, 1),
+(84, NULL, 3, 'Thursday', '15:00:00', '16:00:00', 2, 2, 1),
+(85, NULL, 3, 'Friday', '09:00:00', '10:00:00', 2, 2, 1),
+(86, NULL, 3, 'Friday', '10:00:00', '11:00:00', 2, 2, 1),
+(87, NULL, 3, 'Friday', '11:00:00', '12:00:00', 2, 2, 1),
+(88, NULL, 3, 'Friday', '12:00:00', '13:00:00', 2, 2, 1),
+(89, NULL, 3, 'Friday', '14:00:00', '15:00:00', 2, 2, 1),
+(90, NULL, 3, 'Friday', '15:00:00', '16:00:00', 2, 2, 1),
+(121, NULL, 4, 'Monday', '09:00:00', '10:00:00', 4, 2, 5),
+(122, NULL, 4, 'Monday', '10:00:00', '11:00:00', 5, 2, 5),
+(123, NULL, 4, 'Monday', '11:00:00', '12:00:00', 4, 2, 5),
+(124, NULL, 4, 'Monday', '12:00:00', '13:00:00', 5, 2, 5),
+(125, NULL, 4, 'Monday', '14:00:00', '15:00:00', 4, 2, 5),
+(126, NULL, 4, 'Monday', '15:00:00', '16:00:00', 5, 2, 5),
+(127, NULL, 4, 'Tuesday', '09:00:00', '10:00:00', 4, 2, 5),
+(128, NULL, 4, 'Tuesday', '10:00:00', '11:00:00', 5, 2, 5),
+(129, NULL, 4, 'Tuesday', '11:00:00', '12:00:00', 4, 2, 5),
+(130, NULL, 4, 'Tuesday', '12:00:00', '13:00:00', 5, 2, 5),
+(131, NULL, 4, 'Tuesday', '14:00:00', '15:00:00', 4, 2, 5),
+(132, NULL, 4, 'Tuesday', '15:00:00', '16:00:00', 5, 2, 5),
+(133, NULL, 4, 'Wednesday', '09:00:00', '10:00:00', 4, 2, 5),
+(134, NULL, 4, 'Wednesday', '10:00:00', '11:00:00', 5, 2, 5),
+(135, NULL, 4, 'Wednesday', '11:00:00', '12:00:00', 4, 2, 5),
+(136, NULL, 4, 'Wednesday', '12:00:00', '13:00:00', 5, 2, 5),
+(137, NULL, 4, 'Wednesday', '14:00:00', '15:00:00', 4, 2, 5),
+(138, NULL, 4, 'Wednesday', '15:00:00', '16:00:00', 5, 2, 5),
+(139, NULL, 4, 'Thursday', '09:00:00', '10:00:00', 4, 2, 5),
+(140, NULL, 4, 'Thursday', '10:00:00', '11:00:00', 5, 2, 5),
+(141, NULL, 4, 'Thursday', '11:00:00', '12:00:00', 4, 2, 5),
+(142, NULL, 4, 'Thursday', '12:00:00', '13:00:00', 5, 2, 5),
+(143, NULL, 4, 'Thursday', '14:00:00', '15:00:00', 4, 2, 5),
+(144, NULL, 4, 'Thursday', '15:00:00', '16:00:00', 5, 2, 5),
+(145, NULL, 4, 'Friday', '09:00:00', '10:00:00', 4, 2, 5),
+(146, NULL, 4, 'Friday', '10:00:00', '11:00:00', 5, 2, 5),
+(147, NULL, 4, 'Friday', '11:00:00', '12:00:00', 4, 2, 5),
+(148, NULL, 4, 'Friday', '12:00:00', '13:00:00', 5, 2, 5),
+(149, NULL, 4, 'Friday', '14:00:00', '15:00:00', 4, 2, 5),
+(150, NULL, 4, 'Friday', '15:00:00', '16:00:00', 5, 2, 5),
+(151, NULL, 5, 'Monday', '09:00:00', '10:00:00', 4, 2, 5),
+(152, NULL, 5, 'Monday', '10:00:00', '11:00:00', 5, 2, 5),
+(153, NULL, 5, 'Monday', '11:00:00', '12:00:00', 4, 2, 5),
+(154, NULL, 5, 'Monday', '12:00:00', '13:00:00', 5, 2, 5),
+(155, NULL, 5, 'Monday', '14:00:00', '15:00:00', 4, 2, 5),
+(156, NULL, 5, 'Monday', '15:00:00', '16:00:00', 5, 2, 5),
+(157, NULL, 5, 'Tuesday', '09:00:00', '10:00:00', 4, 2, 5),
+(158, NULL, 5, 'Tuesday', '10:00:00', '11:00:00', 5, 2, 5),
+(159, NULL, 5, 'Tuesday', '11:00:00', '12:00:00', 4, 2, 5),
+(160, NULL, 5, 'Tuesday', '12:00:00', '13:00:00', 5, 2, 5),
+(161, NULL, 5, 'Tuesday', '14:00:00', '15:00:00', 4, 2, 5),
+(162, NULL, 5, 'Tuesday', '15:00:00', '16:00:00', 5, 2, 5),
+(163, NULL, 5, 'Wednesday', '09:00:00', '10:00:00', 4, 2, 5),
+(164, NULL, 5, 'Wednesday', '10:00:00', '11:00:00', 5, 2, 5),
+(165, NULL, 5, 'Wednesday', '11:00:00', '12:00:00', 4, 2, 5),
+(166, NULL, 5, 'Wednesday', '12:00:00', '13:00:00', 5, 2, 5),
+(167, NULL, 5, 'Wednesday', '14:00:00', '15:00:00', 4, 2, 5),
+(168, NULL, 5, 'Wednesday', '15:00:00', '16:00:00', 5, 2, 5),
+(169, NULL, 5, 'Thursday', '09:00:00', '10:00:00', 4, 2, 5),
+(170, NULL, 5, 'Thursday', '10:00:00', '11:00:00', 5, 2, 5),
+(171, NULL, 5, 'Thursday', '11:00:00', '12:00:00', 4, 2, 5),
+(172, NULL, 5, 'Thursday', '12:00:00', '13:00:00', 5, 2, 5),
+(173, NULL, 5, 'Thursday', '14:00:00', '15:00:00', 4, 2, 5),
+(174, NULL, 5, 'Thursday', '15:00:00', '16:00:00', 5, 2, 5),
+(175, NULL, 5, 'Friday', '09:00:00', '10:00:00', 4, 2, 5),
+(176, NULL, 5, 'Friday', '10:00:00', '11:00:00', 5, 2, 5),
+(177, NULL, 5, 'Friday', '11:00:00', '12:00:00', 4, 2, 5),
+(178, NULL, 5, 'Friday', '12:00:00', '13:00:00', 5, 2, 5),
+(179, NULL, 5, 'Friday', '14:00:00', '15:00:00', 4, 2, 5),
+(180, NULL, 5, 'Friday', '15:00:00', '16:00:00', 5, 2, 5),
+(181, NULL, 3, 'Monday', '13:00:00', '14:00:00', 4, 2, 0),
+(182, NULL, 3, 'Thursday', '13:00:00', '14:00:00', 4, 2, 5),
+(183, NULL, 3, 'Wednesday', '13:00:00', '14:00:00', 4, 2, 5),
+(184, NULL, 3, 'Friday', '13:00:00', '14:00:00', 4, 2, 5);
 
 -- --------------------------------------------------------
 
@@ -893,6 +1075,12 @@ ALTER TABLE `classrooms`
   ADD PRIMARY KEY (`id`);
 
 --
+-- Indexes for table `class_attendance`
+--
+ALTER TABLE `class_attendance`
+  ADD PRIMARY KEY (`id`);
+
+--
 -- Indexes for table `lab_records`
 --
 ALTER TABLE `lab_records`
@@ -917,6 +1105,12 @@ ALTER TABLE `student_attendance`
   ADD PRIMARY KEY (`id`);
 
 --
+-- Indexes for table `system_settings`
+--
+ALTER TABLE `system_settings`
+  ADD PRIMARY KEY (`setting_key`);
+
+--
 -- Indexes for table `tbladmin`
 --
 ALTER TABLE `tbladmin`
@@ -927,6 +1121,12 @@ ALTER TABLE `tbladmin`
 --
 ALTER TABLE `tblassigment`
   ADD PRIMARY KEY (`ID`);
+
+--
+-- Indexes for table `tblaudit_logs`
+--
+ALTER TABLE `tblaudit_logs`
+  ADD PRIMARY KEY (`id`);
 
 --
 -- Indexes for table `tblcourse`
@@ -956,6 +1156,12 @@ ALTER TABLE `tblexam_questions`
 -- Indexes for table `tblexam_sessions`
 --
 ALTER TABLE `tblexam_sessions`
+  ADD PRIMARY KEY (`ID`);
+
+--
+-- Indexes for table `tblfeedback`
+--
+ALTER TABLE `tblfeedback`
   ADD PRIMARY KEY (`ID`);
 
 --
@@ -1095,13 +1301,19 @@ ALTER TABLE `timetable_versions`
 -- AUTO_INCREMENT for table `batches`
 --
 ALTER TABLE `batches`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
 
 --
 -- AUTO_INCREMENT for table `classrooms`
 --
 ALTER TABLE `classrooms`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
+
+--
+-- AUTO_INCREMENT for table `class_attendance`
+--
+ALTER TABLE `class_attendance`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 
 --
 -- AUTO_INCREMENT for table `lab_records`
@@ -1119,13 +1331,13 @@ ALTER TABLE `lab_users`
 -- AUTO_INCREMENT for table `notifications`
 --
 ALTER TABLE `notifications`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 
 --
 -- AUTO_INCREMENT for table `student_attendance`
 --
 ALTER TABLE `student_attendance`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 
 --
 -- AUTO_INCREMENT for table `tbladmin`
@@ -1140,10 +1352,16 @@ ALTER TABLE `tblassigment`
   MODIFY `ID` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 
 --
+-- AUTO_INCREMENT for table `tblaudit_logs`
+--
+ALTER TABLE `tblaudit_logs`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
+
+--
 -- AUTO_INCREMENT for table `tblcourse`
 --
 ALTER TABLE `tblcourse`
-  MODIFY `ID` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+  MODIFY `ID` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
 
 --
 -- AUTO_INCREMENT for table `tblexams`
@@ -1170,6 +1388,12 @@ ALTER TABLE `tblexam_sessions`
   MODIFY `ID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
 
 --
+-- AUTO_INCREMENT for table `tblfeedback`
+--
+ALTER TABLE `tblfeedback`
+  MODIFY `ID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+
+--
 -- AUTO_INCREMENT for table `tblliveinteraction`
 --
 ALTER TABLE `tblliveinteraction`
@@ -1179,13 +1403,13 @@ ALTER TABLE `tblliveinteraction`
 -- AUTO_INCREMENT for table `tbllivesession`
 --
 ALTER TABLE `tbllivesession`
-  MODIFY `ID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=12;
+  MODIFY `ID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=13;
 
 --
 -- AUTO_INCREMENT for table `tblnews`
 --
 ALTER TABLE `tblnews`
-  MODIFY `ID` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+  MODIFY `ID` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
 
 --
 -- AUTO_INCREMENT for table `tblnewsbyteacher`
@@ -1209,13 +1433,13 @@ ALTER TABLE `tblreset_requests`
 -- AUTO_INCREMENT for table `tblsubject`
 --
 ALTER TABLE `tblsubject`
-  MODIFY `ID` int(5) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+  MODIFY `ID` int(5) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
 
 --
 -- AUTO_INCREMENT for table `tblsurveys`
 --
 ALTER TABLE `tblsurveys`
-  MODIFY `ID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=15;
+  MODIFY `ID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=16;
 
 --
 -- AUTO_INCREMENT for table `tblsurvey_responses`
@@ -1245,7 +1469,7 @@ ALTER TABLE `tblteacher_reset_requests`
 -- AUTO_INCREMENT for table `tblteacher_subjects`
 --
 ALTER TABLE `tblteacher_subjects`
-  MODIFY `ID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+  MODIFY `ID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=15;
 
 --
 -- AUTO_INCREMENT for table `tbluploadass`
@@ -1269,13 +1493,13 @@ ALTER TABLE `tbl_timetable_slots`
 -- AUTO_INCREMENT for table `teacher_attendance`
 --
 ALTER TABLE `teacher_attendance`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 
 --
 -- AUTO_INCREMENT for table `timetable_schedule`
 --
 ALTER TABLE `timetable_schedule`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=31;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=185;
 
 --
 -- AUTO_INCREMENT for table `timetable_versions`
