@@ -1,252 +1,124 @@
-# VidyaVerse 🎓🤖
+VidyaVerse 🎓🤖
+AI-Powered Full-Stack Campus Ecosystem
 
-VidyaVerse is an AI-powered full-stack campus ecosystem developed to streamline academic administration, event management, digital engagement, and intelligent campus services through a unified platform.
+VidyaVerse is an intelligent, unified campus ecosystem developed to streamline academic administration, event management, digital engagement, and automated services for modern educational institutions. By merging robust web portals with a Python-based AI engine, VidyaVerse empowers students, teachers, and administrators to interact seamlessly.
 
----
+Created by Kaushik Ghosh.
 
-## 🚀 Features
+🚀 Key Subsystems & Features
+📚 Academic Management
+Role-Based Portals: Personalized dashboards and interfaces for Students, Teachers, and Administrators.
+Resource Directory: Efficient course management, syllabus tracking, and educational file sharing.
+Intelligent Laboratories: Virtual classrooms and AI-assisted educational environments to enhance student comprehension.
+🎉 Event & Cultural Management
+Digital Registrations: Smooth online registration flow for institutional events and festivals.
+Secured E-Ticketing: Generates validation-ready digital tickets upon event enrollment.
+Verified Voting: Built-in anonymous voting panels for elections and campus competitions utilizing institutional email checks to prevent duplicate responses.
+💬 Feedback & Engagement
+Real-Time Surveys: Dynamic feedback loops letting students evaluate course modules and campus services.
+Faculty Insights: Analytical dashboards showing feedback summaries to educators for continuous curriculum improvement.
+🧠 Python AI Engine
+Voice Workflows: Voice-controlled inputs to automate routine administrative tasks.
+Personalized AI Assist: Generates smart study recommendations and academic guides.
+Python Microservices: Behind-the-scenes processing of machine learning pipelines for predictive campus analytics.
+📖 Digital Library
+Catalog Inventory: Fully indexable register for digital and physical books.
+Smart Circulation: Tracks book issues, returns, and overdue timelines automatically.
+Voice Search: Voice-assisted title and author queries for friction-free catalog browsing.
+🔔 Scheduled Notifications
+Cron-driven Triggers: Automatically generates and pushes daily reminders, overdue book alerts, and event updates.
+Institutional Announcements: Real-time broadcasts from administrative panels straight to user feeds.
+🔒 Enterprise-Grade Security
+Role-Based Access Control (RBAC): Strict permission boundaries separating administrative powers, grading panels, and student directories.
+Session Integrity: Encrypted session states to prevent session hijacking and cross-site scripting vulnerabilities.
+🛠️ Technology Stack
+Layer	Technologies
+Backend & Routing	PHP, Python
+Database	MySQL (with PDO connection)
+Frontend UI/UX	HTML5, CSS3, JavaScript, AJAX, Tailwind CSS, Google Fonts, Font Awesome
+AI & Voice Services	Python AI Engine (Natural Language Processing, Voice Recognition)
+Server Environments	XAMPP, WAMP, LAMP
+Version Control	Git, GitHub
+📁 Directory Structure
+text
 
-### 📚 Academic Management
 
-* Student, Teacher, and Administrator portals.
-* Course and educational resource management.
-* AI-powered educational labs and learning modules.
-* Personalized dashboards for different user roles.
+VidyaVerse/
+├── admin/                          # Administrator Control Panel
+├── teacher/                        # Educator Dashboards & Grading Panels
+├── user/                           # Student Portal & Profile Settings
+├── assets/                         # Global Static Assets (Images, Icons, Fonts)
+│   ├── css/                        # Shared Layout Stylesheets
+│   ├── js/                         # Script Modules & AJAX Functions
+│   └── fonts/                      # Font Resources
+├── includes/                       # Shared Configs, Database PDO Connections & Headers
+├── uploads/                        # Document & Profile Image Upload Directory
+├── python_ai_engine/               # AI Engine Microservices & NLP Models
+├── vidyaverse_educational_labs/    # Specialized Lab Code & Virtual Environments
+├── SQL File/                       # Pre-configured Database Schemas (`vidyaverse.sql`)
+├── index.php                       # Core Landing Page & Gateway Router
+├── library.php                     # Digital Library Catalog System
+├── kiosk_display.php               # Dynamic Campus Kiosk Screen Interface
+├── check_kiosk_status.php          # Monitor & Health Checks for Campus Kiosks
+├── get_latest_scan.php             # Webhook service to fetch scanner records
+├── cron_generate_notifications.php # Cron automation script for notifications
+└── README.md                       # Product Documentation
+⚙️ Quick Start Guide
+1. Repository Setup
+Clone this repository directly into your local machine:
 
-### 🎉 Event & Cultural Management
+bash
 
-* Event registration and participation management.
-* Digital ticket generation.
-* Institutional email verification.
-* Secure voting system for competitions and elections.
 
-### 💬 Feedback & Engagement
-
-* Real-time feedback collection.
-* Student interaction modules.
-* Faculty insights and analytics.
-
-### 🎤 AI-Powered Features
-
-* Voice-enabled administrative workflows.
-* AI educational assistance.
-* Smart recommendations.
-* Python-powered intelligent services.
-
-### 📖 Library Management
-
-* Book catalog and inventory tracking.
-* Issue and return management.
-* Search and filtering capabilities.
-* Voice-assisted library operations.
-
-### 🔔 Notification System
-
-* Automated notification generation.
-* Scheduled reminders using cron jobs.
-* Real-time updates and announcements.
-
-### 🔒 Security
-
-* Role-Based Access Control (RBAC).
-* Session management.
-* Secure authentication.
-* Institutional verification mechanisms.
-
----
-
-## 🛠️ Setup and Installation
-
-### 1. Clone the Repository
-
-```bash
 git clone https://github.com/Kaushikghosh2004/VidyaVerse.git
 cd VidyaVerse
-```
+2. Local Server Setup
+Move the VidyaVerse root directory into your web server's public folder:
 
-### 2. Move Project to Web Server
+XAMPP: C:/xampp/htdocs/
+WAMP: C:/wamp/www/
+LAMP: /var/www/html/
+3. Database Import
+Start the Apache and MySQL services in your server control panel (e.g., XAMPP Control Panel).
+Visit http://localhost/phpmyadmin/ in your browser.
+Create a new database named vidyaverse.
+Navigate to the Import tab, select the .sql schema file located inside the SQL File/ directory of the project, and run the import.
+4. Configuration
+Open the configuration file includes/config.php and configure your local credentials:
 
-Copy the `Vidyaverse` folder into:
+php
 
-```text
-XAMPP : xampp/htdocs/
-WAMP  : wamp/www/
-LAMP  : /var/www/html/
-```
 
-### 3. Import Database
+<?php
+define('DB_HOST', 'localhost');
+define('DB_USER', 'root');
+define('DB_PASS', ''); // Add your mysql password here
+define('DB_NAME', 'vidyaverse');
+?>
+5. Python AI Engine Setup (Optional)
+To enable voice assistance and automated recommendation microservices, install the required packages:
 
-Open PHPMyAdmin:
+bash
 
-```text
-http://localhost/phpmyadmin
-```
 
-Create a database named:
-
-```text
-vidyaverse
-```
-
-Import the SQL file located inside:
-
-```text
-SQL File/
-```
-
----
-
-### 4. Configure Database
-
-Open:
-
-```text
-includes/config.php
-```
-
-Update your database credentials:
-
-```php
-Host     : localhost
-Database : vidyaverse
-Username : root
-Password :
-```
-
----
-
-### 5. Install Python Dependencies (AI Features)
-
-Navigate to:
-
-```text
-python_ai_engine/
-```
-
-Install dependencies:
-
-```bash
-pip install -r requirements.txt
-```
-
-If using a virtual environment:
-
-```bash
+# Navigate to AI folder
+cd python_ai_engine/
+# Create a virtual environment
 python -m venv venv
-venv\Scripts\activate      # Windows
-source venv/bin/activate   # Linux/macOS
-```
+# Activate Virtual Environment
+# On Windows:
+venv\Scripts\activate
+# On macOS/Linux:
+source venv/bin/activate
+# Install dependencies
+pip install -r requirements.txt
+6. Run Project
+Open your web browser and load the project URL:
 
----
+text
 
-### 6. Run the Application
 
-Start Apache and MySQL from XAMPP/WAMP.
-
-Open your browser:
-
-```text
-http://localhost/Vidyaverse
-```
-
----
-
-## 🔑 Default Credentials
-
-### Administrator
-
-```text
-Username: admin
-Password: admin
-```
-
-> ⚠️ Change all default passwords after first login.
-
----
-
-## 📦 Project Structure
-
-```text
-VidyaVerse/
-├── admin/                          # Administrator Panel
-├── teacher/                        # Teacher Dashboard
-├── user/                           # Student Portal
-├── assets/                         # Static Assets
-├── css/                            # Stylesheets
-├── js/                             # JavaScript Files
-├── fonts/                          # Font Resources
-├── images/                         # Images and Icons
-├── includes/                       # Shared Components & Configurations
-├── uploads/                        # User Uploads
-├── python_ai_engine/               # AI Modules and Python Services
-├── vidyaverse_educational_labs/    # Educational Lab Modules
-├── SQL File/                       # Database Files
-├── index.php                       # Application Entry Point
-├── library.php                     # Digital Library Module
-├── kiosk_display.php               # Kiosk Display Interface
-├── check_kiosk_status.php          # Kiosk Monitoring
-├── get_latest_scan.php             # Scan Retrieval Service
-├── cron_generate_notifications.php # Scheduled Notifications
-├── make_logos.py                   # Logo Generation Utility
-└── README.md                       # Documentation
-```
-
----
-
-## 💻 Technology Stack
-
-### Backend
-
-* PHP
-* MySQL
-* Python
-
-### Frontend
-
-* HTML5
-* CSS3
-* JavaScript
-* AJAX
-
-### AI & Automation
-
-* Python AI Engine
-* Voice-Based Assistance
-* Educational Intelligence Modules
-
-### Tools
-
-* Git
-* GitHub
-* XAMPP
-
----
-
-## 👥 User Roles
-
-### Admin
-
-* Manage the entire ecosystem.
-* Monitor users and activities.
-* Generate reports and notifications.
-* Configure institutional settings.
-
-### Teacher
-
-* Manage educational activities.
-* Access feedback and analytics.
-* Interact with students.
-* Monitor learning resources.
-
-### Student
-
-* Access academic services.
-* Participate in events and voting.
-* Use digital library facilities.
-* Receive notifications and updates.
-
----
-
-## 📌 About
-
-VidyaVerse is a next-generation digital campus ecosystem that integrates academics, intelligent services, library management, event operations, AI-powered workflows, and secure user engagement into a single scalable platform designed for modern educational institutions.
+http://localhost/VidyaVerse
+🔑 Default Credentials
+Portal Role	Default Username	Default Password
+Administrator	admin	admin
