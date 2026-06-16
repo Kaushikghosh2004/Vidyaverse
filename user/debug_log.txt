@@ -1,0 +1,1004 @@
+[2025-12-15 21:24:10] Received Data for Session ID: 3
+[2025-12-15 21:24:10] Image Data Length: 6119
+[2025-12-15 21:24:10] SUCCESS: Saved image to D:\Xampp\htdocs\Vidyaverse\user/evidence/snap_3_1765814050.jpg
+[2025-12-15 21:24:10] CRITICAL ERROR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'LastHeartbeat' in 'field list'
+[2025-12-15 21:24:15] Received Data for Session ID: 3
+[2025-12-15 21:24:15] Image Data Length: 6039
+[2025-12-15 21:24:15] SUCCESS: Saved image to D:\Xampp\htdocs\Vidyaverse\user/evidence/snap_3_1765814055.jpg
+[2025-12-15 21:24:15] CRITICAL ERROR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'LastHeartbeat' in 'field list'
+[2025-12-15 21:24:20] Received Data for Session ID: 3
+[2025-12-15 21:24:20] Image Data Length: 4903
+[2025-12-15 21:24:20] SUCCESS: Saved image to D:\Xampp\htdocs\Vidyaverse\user/evidence/snap_3_1765814060.jpg
+[2025-12-15 21:24:20] CRITICAL ERROR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'LastHeartbeat' in 'field list'
+[2025-12-15 21:24:25] Received Data for Session ID: 3
+[2025-12-15 21:24:25] Image Data Length: 4807
+[2025-12-15 21:24:25] SUCCESS: Saved image to D:\Xampp\htdocs\Vidyaverse\user/evidence/snap_3_1765814065.jpg
+[2025-12-15 21:24:25] CRITICAL ERROR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'LastHeartbeat' in 'field list'
+[2025-12-15 21:24:30] Received Data for Session ID: 3
+[2025-12-15 21:24:30] Image Data Length: 5947
+[2025-12-15 21:24:30] SUCCESS: Saved image to D:\Xampp\htdocs\Vidyaverse\user/evidence/snap_3_1765814070.jpg
+[2025-12-15 21:24:30] CRITICAL ERROR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'LastHeartbeat' in 'field list'
+[2025-12-15 21:24:35] Received Data for Session ID: 3
+[2025-12-15 21:24:35] Image Data Length: 5655
+[2025-12-15 21:24:35] SUCCESS: Saved image to D:\Xampp\htdocs\Vidyaverse\user/evidence/snap_3_1765814075.jpg
+[2025-12-15 21:24:35] CRITICAL ERROR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'LastHeartbeat' in 'field list'
+[2025-12-15 21:24:38] Received Data for Session ID: 3
+[2025-12-15 21:24:38] Image Data Length: 5771
+[2025-12-15 21:24:38] SUCCESS: Saved image to D:\Xampp\htdocs\Vidyaverse\user/evidence/snap_3_1765814078.jpg
+[2025-12-15 21:24:38] CRITICAL ERROR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'LastHeartbeat' in 'field list'
+[2025-12-15 21:24:40] Received Data for Session ID: 3
+[2025-12-15 21:24:40] Image Data Length: 6171
+[2025-12-15 21:24:40] SUCCESS: Saved image to D:\Xampp\htdocs\Vidyaverse\user/evidence/snap_3_1765814080.jpg
+[2025-12-15 21:24:40] CRITICAL ERROR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'LastHeartbeat' in 'field list'
+[2025-12-15 21:24:45] Received Data for Session ID: 3
+[2025-12-15 21:24:45] Image Data Length: 5963
+[2025-12-15 21:24:45] SUCCESS: Saved image to D:\Xampp\htdocs\Vidyaverse\user/evidence/snap_3_1765814085.jpg
+[2025-12-15 21:24:45] CRITICAL ERROR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'LastHeartbeat' in 'field list'
+[2025-12-15 21:24:50] Received Data for Session ID: 3
+[2025-12-15 21:24:50] Image Data Length: 6063
+[2025-12-15 21:24:50] SUCCESS: Saved image to D:\Xampp\htdocs\Vidyaverse\user/evidence/snap_3_1765814090.jpg
+[2025-12-15 21:24:50] CRITICAL ERROR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'LastHeartbeat' in 'field list'
+[2025-12-15 21:24:55] Received Data for Session ID: 3
+[2025-12-15 21:24:55] Image Data Length: 6159
+[2025-12-15 21:24:55] SUCCESS: Saved image to D:\Xampp\htdocs\Vidyaverse\user/evidence/snap_3_1765814095.jpg
+[2025-12-15 21:24:55] CRITICAL ERROR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'LastHeartbeat' in 'field list'
+[2025-12-15 21:25:00] Received Data for Session ID: 3
+[2025-12-15 21:25:00] Image Data Length: 6283
+[2025-12-15 21:25:00] SUCCESS: Saved image to D:\Xampp\htdocs\Vidyaverse\user/evidence/snap_3_1765814100.jpg
+[2025-12-15 21:25:00] CRITICAL ERROR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'LastHeartbeat' in 'field list'
+[2025-12-15 21:25:05] Received Data for Session ID: 3
+[2025-12-15 21:25:05] Image Data Length: 6379
+[2025-12-15 21:25:05] SUCCESS: Saved image to D:\Xampp\htdocs\Vidyaverse\user/evidence/snap_3_1765814105.jpg
+[2025-12-15 21:25:05] CRITICAL ERROR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'LastHeartbeat' in 'field list'
+[2025-12-15 21:25:10] Received Data for Session ID: 3
+[2025-12-15 21:25:10] Image Data Length: 4691
+[2025-12-15 21:25:10] SUCCESS: Saved image to D:\Xampp\htdocs\Vidyaverse\user/evidence/snap_3_1765814110.jpg
+[2025-12-15 21:25:10] CRITICAL ERROR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'LastHeartbeat' in 'field list'
+[2025-12-15 21:25:12] Received Data for Session ID: 3
+[2025-12-15 21:25:12] Image Data Length: 6211
+[2025-12-15 21:25:12] SUCCESS: Saved image to D:\Xampp\htdocs\Vidyaverse\user/evidence/snap_3_1765814112.jpg
+[2025-12-15 21:25:12] CRITICAL ERROR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'LastHeartbeat' in 'field list'
+[2025-12-15 21:25:15] Received Data for Session ID: 3
+[2025-12-15 21:25:15] Image Data Length: 5695
+[2025-12-15 21:25:15] SUCCESS: Saved image to D:\Xampp\htdocs\Vidyaverse\user/evidence/snap_3_1765814115.jpg
+[2025-12-15 21:25:15] CRITICAL ERROR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'LastHeartbeat' in 'field list'
+[2025-12-15 21:25:20] Received Data for Session ID: 3
+[2025-12-15 21:25:20] Image Data Length: 5615
+[2025-12-15 21:25:20] SUCCESS: Saved image to D:\Xampp\htdocs\Vidyaverse\user/evidence/snap_3_1765814120.jpg
+[2025-12-15 21:25:20] CRITICAL ERROR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'LastHeartbeat' in 'field list'
+[2025-12-15 21:25:25] Received Data for Session ID: 3
+[2025-12-15 21:25:25] Image Data Length: 6063
+[2025-12-15 21:25:25] SUCCESS: Saved image to D:\Xampp\htdocs\Vidyaverse\user/evidence/snap_3_1765814125.jpg
+[2025-12-15 21:25:25] CRITICAL ERROR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'LastHeartbeat' in 'field list'
+[2025-12-15 21:25:30] Received Data for Session ID: 3
+[2025-12-15 21:25:30] Image Data Length: 6147
+[2025-12-15 21:25:30] SUCCESS: Saved image to D:\Xampp\htdocs\Vidyaverse\user/evidence/snap_3_1765814130.jpg
+[2025-12-15 21:25:30] CRITICAL ERROR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'LastHeartbeat' in 'field list'
+[2025-12-15 21:25:34] Received Data for Session ID: 3
+[2025-12-15 21:25:34] Image Data Length: 6335
+[2025-12-15 21:25:34] SUCCESS: Saved image to D:\Xampp\htdocs\Vidyaverse\user/evidence/snap_3_1765814134.jpg
+[2025-12-15 21:25:34] CRITICAL ERROR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'LastHeartbeat' in 'field list'
+[2025-12-15 21:25:35] Received Data for Session ID: 3
+[2025-12-15 21:25:35] Image Data Length: 6119
+[2025-12-15 21:25:35] SUCCESS: Saved image to D:\Xampp\htdocs\Vidyaverse\user/evidence/snap_3_1765814135.jpg
+[2025-12-15 21:25:35] CRITICAL ERROR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'LastHeartbeat' in 'field list'
+[2025-12-15 21:25:40] Received Data for Session ID: 3
+[2025-12-15 21:25:40] Image Data Length: 6207
+[2025-12-15 21:25:40] SUCCESS: Saved image to D:\Xampp\htdocs\Vidyaverse\user/evidence/snap_3_1765814140.jpg
+[2025-12-15 21:25:40] CRITICAL ERROR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'LastHeartbeat' in 'field list'
+[2025-12-15 21:25:45] Received Data for Session ID: 3
+[2025-12-15 21:25:45] Image Data Length: 6103
+[2025-12-15 21:25:45] SUCCESS: Saved image to D:\Xampp\htdocs\Vidyaverse\user/evidence/snap_3_1765814145.jpg
+[2025-12-15 21:25:45] CRITICAL ERROR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'LastHeartbeat' in 'field list'
+[2025-12-15 21:25:50] Received Data for Session ID: 3
+[2025-12-15 21:25:50] Image Data Length: 6091
+[2025-12-15 21:25:50] SUCCESS: Saved image to D:\Xampp\htdocs\Vidyaverse\user/evidence/snap_3_1765814150.jpg
+[2025-12-15 21:25:50] CRITICAL ERROR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'LastHeartbeat' in 'field list'
+[2025-12-15 21:25:55] Received Data for Session ID: 3
+[2025-12-15 21:25:55] Image Data Length: 5911
+[2025-12-15 21:25:55] SUCCESS: Saved image to D:\Xampp\htdocs\Vidyaverse\user/evidence/snap_3_1765814155.jpg
+[2025-12-15 21:25:55] CRITICAL ERROR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'LastHeartbeat' in 'field list'
+[2025-12-15 21:25:59] Received Data for Session ID: 3
+[2025-12-15 21:25:59] Image Data Length: 6375
+[2025-12-15 21:25:59] SUCCESS: Saved image to D:\Xampp\htdocs\Vidyaverse\user/evidence/snap_3_1765814159.jpg
+[2025-12-15 21:25:59] CRITICAL ERROR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'LastHeartbeat' in 'field list'
+[2025-12-15 21:26:00] Received Data for Session ID: 3
+[2025-12-15 21:26:00] Image Data Length: 6071
+[2025-12-15 21:26:00] SUCCESS: Saved image to D:\Xampp\htdocs\Vidyaverse\user/evidence/snap_3_1765814160.jpg
+[2025-12-15 21:26:00] CRITICAL ERROR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'LastHeartbeat' in 'field list'
+[2025-12-15 21:26:05] Received Data for Session ID: 3
+[2025-12-15 21:26:05] Image Data Length: 6291
+[2025-12-15 21:26:05] SUCCESS: Saved image to D:\Xampp\htdocs\Vidyaverse\user/evidence/snap_3_1765814165.jpg
+[2025-12-15 21:26:05] CRITICAL ERROR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'LastHeartbeat' in 'field list'
+[2025-12-15 21:26:06] Received Data for Session ID: 3
+[2025-12-15 21:26:06] Image Data Length: 6395
+[2025-12-15 21:26:06] SUCCESS: Saved image to D:\Xampp\htdocs\Vidyaverse\user/evidence/snap_3_1765814166.jpg
+[2025-12-15 21:26:06] CRITICAL ERROR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'LastHeartbeat' in 'field list'
+[2025-12-15 21:35:16] Received Data for Session ID: 4
+[2025-12-15 21:35:16] Image Data Length: 6003
+[2025-12-15 21:35:16] SUCCESS: Saved image to D:\Xampp\htdocs\Vidyaverse\user/evidence/snap_4_1765814716.jpg
+[2025-12-15 21:35:16] Database updated successfully.
+[2025-12-15 21:35:21] Received Data for Session ID: 4
+[2025-12-15 21:35:21] Image Data Length: 6235
+[2025-12-15 21:35:21] SUCCESS: Saved image to D:\Xampp\htdocs\Vidyaverse\user/evidence/snap_4_1765814721.jpg
+[2025-12-15 21:35:21] Database updated successfully.
+[2025-12-15 21:35:26] Received Data for Session ID: 4
+[2025-12-15 21:35:26] Image Data Length: 5923
+[2025-12-15 21:35:26] SUCCESS: Saved image to D:\Xampp\htdocs\Vidyaverse\user/evidence/snap_4_1765814726.jpg
+[2025-12-15 21:35:26] Database updated successfully.
+[2025-12-15 21:35:31] Received Data for Session ID: 4
+[2025-12-15 21:35:31] Image Data Length: 6463
+[2025-12-15 21:35:31] SUCCESS: Saved image to D:\Xampp\htdocs\Vidyaverse\user/evidence/snap_4_1765814731.jpg
+[2025-12-15 21:35:31] Database updated successfully.
+[2025-12-15 21:35:32] Received Data for Session ID: 4
+[2025-12-15 21:35:32] Image Data Length: 6519
+[2025-12-15 21:35:32] SUCCESS: Saved image to D:\Xampp\htdocs\Vidyaverse\user/evidence/snap_4_1765814732.jpg
+[2025-12-15 21:35:32] Database updated successfully.
+[2025-12-15 21:35:36] Received Data for Session ID: 4
+[2025-12-15 21:35:36] Image Data Length: 6835
+[2025-12-15 21:35:36] SUCCESS: Saved image to D:\Xampp\htdocs\Vidyaverse\user/evidence/snap_4_1765814736.jpg
+[2025-12-15 21:35:36] Database updated successfully.
+[2025-12-15 21:35:37] Received Data for Session ID: 4
+[2025-12-15 21:35:37] Image Data Length: 6787
+[2025-12-15 21:35:37] SUCCESS: Saved image to D:\Xampp\htdocs\Vidyaverse\user/evidence/snap_4_1765814737.jpg
+[2025-12-15 21:35:37] Database updated successfully.
+[2025-12-15 21:35:41] Received Data for Session ID: 4
+[2025-12-15 21:35:41] Image Data Length: 6503
+[2025-12-15 21:35:41] SUCCESS: Saved image to D:\Xampp\htdocs\Vidyaverse\user/evidence/snap_4_1765814741.jpg
+[2025-12-15 21:35:41] Database updated successfully.
+[2025-12-15 21:35:44] Received Data for Session ID: 4
+[2025-12-15 21:35:44] Image Data Length: 6539
+[2025-12-15 21:35:44] SUCCESS: Saved image to D:\Xampp\htdocs\Vidyaverse\user/evidence/snap_4_1765814744.jpg
+[2025-12-15 21:35:44] Database updated successfully.
+[2025-12-15 21:35:46] Received Data for Session ID: 4
+[2025-12-15 21:35:46] Image Data Length: 6427
+[2025-12-15 21:35:46] SUCCESS: Saved image to D:\Xampp\htdocs\Vidyaverse\user/evidence/snap_4_1765814746.jpg
+[2025-12-15 21:35:46] Database updated successfully.
+[2025-12-15 21:35:46] Received Data for Session ID: 4
+[2025-12-15 21:35:46] Image Data Length: 6503
+[2025-12-15 21:35:46] SUCCESS: Saved image to D:\Xampp\htdocs\Vidyaverse\user/evidence/snap_4_1765814746.jpg
+[2025-12-15 21:35:46] Database updated successfully.
+[2025-12-15 21:35:51] Received Data for Session ID: 4
+[2025-12-15 21:35:51] Image Data Length: 6559
+[2025-12-15 21:35:51] SUCCESS: Saved image to D:\Xampp\htdocs\Vidyaverse\user/evidence/snap_4_1765814751.jpg
+[2025-12-15 21:35:51] Database updated successfully.
+[2025-12-15 21:35:56] Received Data for Session ID: 4
+[2025-12-15 21:35:56] Image Data Length: 6487
+[2025-12-15 21:35:56] SUCCESS: Saved image to D:\Xampp\htdocs\Vidyaverse\user/evidence/snap_4_1765814756.jpg
+[2025-12-15 21:35:56] Database updated successfully.
+[2025-12-15 21:36:01] Received Data for Session ID: 4
+[2025-12-15 21:36:01] Image Data Length: 6579
+[2025-12-15 21:36:01] SUCCESS: Saved image to D:\Xampp\htdocs\Vidyaverse\user/evidence/snap_4_1765814761.jpg
+[2025-12-15 21:36:01] Database updated successfully.
+[2025-12-15 21:36:06] Received Data for Session ID: 4
+[2025-12-15 21:36:06] Image Data Length: 6643
+[2025-12-15 21:36:06] SUCCESS: Saved image to D:\Xampp\htdocs\Vidyaverse\user/evidence/snap_4_1765814766.jpg
+[2025-12-15 21:36:06] Database updated successfully.
+[2025-12-15 21:36:11] Received Data for Session ID: 4
+[2025-12-15 21:36:11] Image Data Length: 5907
+[2025-12-15 21:36:11] SUCCESS: Saved image to D:\Xampp\htdocs\Vidyaverse\user/evidence/snap_4_1765814771.jpg
+[2025-12-15 21:36:11] Database updated successfully.
+[2025-12-15 21:36:16] Received Data for Session ID: 4
+[2025-12-15 21:36:16] Image Data Length: 6267
+[2025-12-15 21:36:16] SUCCESS: Saved image to D:\Xampp\htdocs\Vidyaverse\user/evidence/snap_4_1765814776.jpg
+[2025-12-15 21:36:16] Database updated successfully.
+[2025-12-15 21:36:20] Received Data for Session ID: 4
+[2025-12-15 21:36:20] Image Data Length: 6799
+[2025-12-15 21:36:20] SUCCESS: Saved image to D:\Xampp\htdocs\Vidyaverse\user/evidence/snap_4_1765814780.jpg
+[2025-12-15 21:36:20] Database updated successfully.
+[2025-12-15 21:36:25] Received Data for Session ID: 4
+[2025-12-15 21:36:25] Image Data Length: 6119
+[2025-12-15 21:36:25] SUCCESS: Saved image to D:\Xampp\htdocs\Vidyaverse\user/evidence/snap_4_1765814785.jpg
+[2025-12-15 21:36:25] Database updated successfully.
+[2025-12-15 21:36:30] Received Data for Session ID: 4
+[2025-12-15 21:36:30] Image Data Length: 5299
+[2025-12-15 21:36:30] SUCCESS: Saved image to D:\Xampp\htdocs\Vidyaverse\user/evidence/snap_4_1765814790.jpg
+[2025-12-15 21:36:30] Database updated successfully.
+[2025-12-15 21:36:33] Received Data for Session ID: 4
+[2025-12-15 21:36:33] Image Data Length: 6435
+[2025-12-15 21:36:33] SUCCESS: Saved image to D:\Xampp\htdocs\Vidyaverse\user/evidence/snap_4_1765814793.jpg
+[2025-12-15 21:36:33] Database updated successfully.
+[2025-12-15 21:36:35] Received Data for Session ID: 4
+[2025-12-15 21:36:35] Image Data Length: 6307
+[2025-12-15 21:36:35] SUCCESS: Saved image to D:\Xampp\htdocs\Vidyaverse\user/evidence/snap_4_1765814795.jpg
+[2025-12-15 21:36:35] Database updated successfully.
+[2025-12-15 21:36:39] Received Data for Session ID: 4
+[2025-12-15 21:36:39] Image Data Length: 6999
+[2025-12-15 21:36:39] SUCCESS: Saved image to D:\Xampp\htdocs\Vidyaverse\user/evidence/snap_4_1765814799.jpg
+[2025-12-15 21:36:39] Database updated successfully.
+[2025-12-15 21:36:40] Received Data for Session ID: 4
+[2025-12-15 21:36:40] Image Data Length: 6467
+[2025-12-15 21:36:40] SUCCESS: Saved image to D:\Xampp\htdocs\Vidyaverse\user/evidence/snap_4_1765814800.jpg
+[2025-12-15 21:36:40] Database updated successfully.
+[2025-12-15 21:36:45] Received Data for Session ID: 4
+[2025-12-15 21:36:45] Image Data Length: 6455
+[2025-12-15 21:36:45] SUCCESS: Saved image to D:\Xampp\htdocs\Vidyaverse\user/evidence/snap_4_1765814805.jpg
+[2025-12-15 21:36:45] Database updated successfully.
+[2025-12-15 21:36:50] Received Data for Session ID: 4
+[2025-12-15 21:36:50] Image Data Length: 6459
+[2025-12-15 21:36:50] SUCCESS: Saved image to D:\Xampp\htdocs\Vidyaverse\user/evidence/snap_4_1765814810.jpg
+[2025-12-15 21:36:50] Database updated successfully.
+[2025-12-15 21:36:55] Received Data for Session ID: 4
+[2025-12-15 21:36:55] Image Data Length: 6295
+[2025-12-15 21:36:55] SUCCESS: Saved image to D:\Xampp\htdocs\Vidyaverse\user/evidence/snap_4_1765814815.jpg
+[2025-12-15 21:36:55] Database updated successfully.
+[2025-12-15 21:37:00] Received Data for Session ID: 4
+[2025-12-15 21:37:00] Image Data Length: 6567
+[2025-12-15 21:37:00] SUCCESS: Saved image to D:\Xampp\htdocs\Vidyaverse\user/evidence/snap_4_1765814820.jpg
+[2025-12-15 21:37:00] Database updated successfully.
+[2025-12-15 21:37:05] Received Data for Session ID: 4
+[2025-12-15 21:37:05] Image Data Length: 6515
+[2025-12-15 21:37:05] SUCCESS: Saved image to D:\Xampp\htdocs\Vidyaverse\user/evidence/snap_4_1765814825.jpg
+[2025-12-15 21:37:05] Database updated successfully.
+[2025-12-15 21:37:10] Received Data for Session ID: 4
+[2025-12-15 21:37:10] Image Data Length: 6651
+[2025-12-15 21:37:10] SUCCESS: Saved image to D:\Xampp\htdocs\Vidyaverse\user/evidence/snap_4_1765814830.jpg
+[2025-12-15 21:37:10] Database updated successfully.
+[2025-12-15 21:37:15] Received Data for Session ID: 4
+[2025-12-15 21:37:15] Image Data Length: 6547
+[2025-12-15 21:37:15] SUCCESS: Saved image to D:\Xampp\htdocs\Vidyaverse\user/evidence/snap_4_1765814835.jpg
+[2025-12-15 21:37:15] Database updated successfully.
+[2025-12-15 21:37:20] Received Data for Session ID: 4
+[2025-12-15 21:37:20] Image Data Length: 6071
+[2025-12-15 21:37:20] SUCCESS: Saved image to D:\Xampp\htdocs\Vidyaverse\user/evidence/snap_4_1765814840.jpg
+[2025-12-15 21:37:20] Database updated successfully.
+[2025-12-15 21:37:25] Received Data for Session ID: 4
+[2025-12-15 21:37:25] Image Data Length: 5955
+[2025-12-15 21:37:25] SUCCESS: Saved image to D:\Xampp\htdocs\Vidyaverse\user/evidence/snap_4_1765814845.jpg
+[2025-12-15 21:37:25] Database updated successfully.
+[2025-12-15 21:37:30] Received Data for Session ID: 4
+[2025-12-15 21:37:30] Image Data Length: 6555
+[2025-12-15 21:37:30] SUCCESS: Saved image to D:\Xampp\htdocs\Vidyaverse\user/evidence/snap_4_1765814850.jpg
+[2025-12-15 21:37:30] Database updated successfully.
+[2025-12-15 21:37:35] Received Data for Session ID: 4
+[2025-12-15 21:37:35] Image Data Length: 6535
+[2025-12-15 21:37:35] SUCCESS: Saved image to D:\Xampp\htdocs\Vidyaverse\user/evidence/snap_4_1765814855.jpg
+[2025-12-15 21:37:35] Database updated successfully.
+[2025-12-15 21:37:40] Received Data for Session ID: 4
+[2025-12-15 21:37:40] Image Data Length: 6651
+[2025-12-15 21:37:40] SUCCESS: Saved image to D:\Xampp\htdocs\Vidyaverse\user/evidence/snap_4_1765814860.jpg
+[2025-12-15 21:37:40] Database updated successfully.
+[2025-12-15 21:37:45] Received Data for Session ID: 4
+[2025-12-15 21:37:45] Image Data Length: 6967
+[2025-12-15 21:37:45] SUCCESS: Saved image to D:\Xampp\htdocs\Vidyaverse\user/evidence/snap_4_1765814865.jpg
+[2025-12-15 21:37:45] Database updated successfully.
+[2025-12-15 21:37:50] Received Data for Session ID: 4
+[2025-12-15 21:37:50] Image Data Length: 6499
+[2025-12-15 21:37:50] SUCCESS: Saved image to D:\Xampp\htdocs\Vidyaverse\user/evidence/snap_4_1765814870.jpg
+[2025-12-15 21:37:50] Database updated successfully.
+[2025-12-15 21:37:55] Received Data for Session ID: 4
+[2025-12-15 21:37:55] Image Data Length: 6743
+[2025-12-15 21:37:55] SUCCESS: Saved image to D:\Xampp\htdocs\Vidyaverse\user/evidence/snap_4_1765814875.jpg
+[2025-12-15 21:37:55] Database updated successfully.
+[2025-12-15 21:37:59] Received Data for Session ID: 4
+[2025-12-15 21:37:59] Image Data Length: 6671
+[2025-12-15 21:37:59] SUCCESS: Saved image to D:\Xampp\htdocs\Vidyaverse\user/evidence/snap_4_1765814879.jpg
+[2025-12-15 21:37:59] Database updated successfully.
+[2025-12-15 21:38:00] Received Data for Session ID: 4
+[2025-12-15 21:38:00] Image Data Length: 6199
+[2025-12-15 21:38:00] SUCCESS: Saved image to D:\Xampp\htdocs\Vidyaverse\user/evidence/snap_4_1765814880.jpg
+[2025-12-15 21:38:00] Database updated successfully.
+[2025-12-15 21:38:05] Received Data for Session ID: 4
+[2025-12-15 21:38:05] Image Data Length: 6511
+[2025-12-15 21:38:05] SUCCESS: Saved image to D:\Xampp\htdocs\Vidyaverse\user/evidence/snap_4_1765814885.jpg
+[2025-12-15 21:38:05] Database updated successfully.
+[2025-12-15 21:38:10] Received Data for Session ID: 4
+[2025-12-15 21:38:10] Image Data Length: 6959
+[2025-12-15 21:38:10] SUCCESS: Saved image to D:\Xampp\htdocs\Vidyaverse\user/evidence/snap_4_1765814890.jpg
+[2025-12-15 21:38:10] Database updated successfully.
+[2025-12-15 21:38:15] Received Data for Session ID: 4
+[2025-12-15 21:38:15] Image Data Length: 7199
+[2025-12-15 21:38:15] SUCCESS: Saved image to D:\Xampp\htdocs\Vidyaverse\user/evidence/snap_4_1765814895.jpg
+[2025-12-15 21:38:15] Database updated successfully.
+[2025-12-15 21:38:20] Received Data for Session ID: 4
+[2025-12-15 21:38:20] Image Data Length: 6683
+[2025-12-15 21:38:20] SUCCESS: Saved image to D:\Xampp\htdocs\Vidyaverse\user/evidence/snap_4_1765814900.jpg
+[2025-12-15 21:38:20] Database updated successfully.
+[2025-12-15 21:38:22] Received Data for Session ID: 4
+[2025-12-15 21:38:22] Image Data Length: 6703
+[2025-12-15 21:38:22] SUCCESS: Saved image to D:\Xampp\htdocs\Vidyaverse\user/evidence/snap_4_1765814902.jpg
+[2025-12-15 21:38:22] Database updated successfully.
+[2025-12-15 21:38:25] Received Data for Session ID: 4
+[2025-12-15 21:38:25] Image Data Length: 6539
+[2025-12-15 21:38:25] SUCCESS: Saved image to D:\Xampp\htdocs\Vidyaverse\user/evidence/snap_4_1765814905.jpg
+[2025-12-15 21:38:25] Database updated successfully.
+[2025-12-15 21:38:30] Received Data for Session ID: 4
+[2025-12-15 21:38:30] Image Data Length: 6479
+[2025-12-15 21:38:30] SUCCESS: Saved image to D:\Xampp\htdocs\Vidyaverse\user/evidence/snap_4_1765814910.jpg
+[2025-12-15 21:38:30] Database updated successfully.
+[2025-12-15 21:38:35] Received Data for Session ID: 4
+[2025-12-15 21:38:35] Image Data Length: 6495
+[2025-12-15 21:38:35] SUCCESS: Saved image to D:\Xampp\htdocs\Vidyaverse\user/evidence/snap_4_1765814915.jpg
+[2025-12-15 21:38:35] Database updated successfully.
+[2025-12-15 21:38:40] Received Data for Session ID: 4
+[2025-12-15 21:38:40] Image Data Length: 6431
+[2025-12-15 21:38:40] SUCCESS: Saved image to D:\Xampp\htdocs\Vidyaverse\user/evidence/snap_4_1765814920.jpg
+[2025-12-15 21:38:40] Database updated successfully.
+[2025-12-15 21:38:45] Received Data for Session ID: 4
+[2025-12-15 21:38:45] Image Data Length: 6263
+[2025-12-15 21:38:45] SUCCESS: Saved image to D:\Xampp\htdocs\Vidyaverse\user/evidence/snap_4_1765814925.jpg
+[2025-12-15 21:38:45] Database updated successfully.
+[2025-12-15 21:38:50] Received Data for Session ID: 4
+[2025-12-15 21:38:50] Image Data Length: 6503
+[2025-12-15 21:38:50] SUCCESS: Saved image to D:\Xampp\htdocs\Vidyaverse\user/evidence/snap_4_1765814930.jpg
+[2025-12-15 21:38:50] Database updated successfully.
+[2025-12-15 21:38:55] Received Data for Session ID: 4
+[2025-12-15 21:38:55] Image Data Length: 6471
+[2025-12-15 21:38:55] SUCCESS: Saved image to D:\Xampp\htdocs\Vidyaverse\user/evidence/snap_4_1765814935.jpg
+[2025-12-15 21:38:55] Database updated successfully.
+[2025-12-15 21:39:00] Received Data for Session ID: 4
+[2025-12-15 21:39:00] Image Data Length: 6831
+[2025-12-15 21:39:00] SUCCESS: Saved image to D:\Xampp\htdocs\Vidyaverse\user/evidence/snap_4_1765814940.jpg
+[2025-12-15 21:39:00] Database updated successfully.
+[2025-12-15 21:39:05] Received Data for Session ID: 4
+[2025-12-15 21:39:05] Image Data Length: 6811
+[2025-12-15 21:39:05] SUCCESS: Saved image to D:\Xampp\htdocs\Vidyaverse\user/evidence/snap_4_1765814945.jpg
+[2025-12-15 21:39:05] Database updated successfully.
+[2025-12-15 21:39:10] Received Data for Session ID: 4
+[2025-12-15 21:39:10] Image Data Length: 6867
+[2025-12-15 21:39:10] SUCCESS: Saved image to D:\Xampp\htdocs\Vidyaverse\user/evidence/snap_4_1765814950.jpg
+[2025-12-15 21:39:10] Database updated successfully.
+[2025-12-15 21:39:15] Received Data for Session ID: 4
+[2025-12-15 21:39:15] Image Data Length: 7171
+[2025-12-15 21:39:15] SUCCESS: Saved image to D:\Xampp\htdocs\Vidyaverse\user/evidence/snap_4_1765814955.jpg
+[2025-12-15 21:39:15] Database updated successfully.
+[2025-12-15 21:39:18] Received Data for Session ID: 4
+[2025-12-15 21:39:18] Image Data Length: 7151
+[2025-12-15 21:39:18] SUCCESS: Saved image to D:\Xampp\htdocs\Vidyaverse\user/evidence/snap_4_1765814958.jpg
+[2025-12-15 21:39:18] Database updated successfully.
+[2025-12-15 21:39:20] Received Data for Session ID: 4
+[2025-12-15 21:39:20] Image Data Length: 6843
+[2025-12-15 21:39:20] SUCCESS: Saved image to D:\Xampp\htdocs\Vidyaverse\user/evidence/snap_4_1765814960.jpg
+[2025-12-15 21:39:20] Database updated successfully.
+[2025-12-15 21:39:25] Received Data for Session ID: 4
+[2025-12-15 21:39:25] Image Data Length: 5407
+[2025-12-15 21:39:25] SUCCESS: Saved image to D:\Xampp\htdocs\Vidyaverse\user/evidence/snap_4_1765814965.jpg
+[2025-12-15 21:39:25] Database updated successfully.
+[2025-12-15 21:39:30] Received Data for Session ID: 4
+[2025-12-15 21:39:30] Image Data Length: 6355
+[2025-12-15 21:39:30] SUCCESS: Saved image to D:\Xampp\htdocs\Vidyaverse\user/evidence/snap_4_1765814970.jpg
+[2025-12-15 21:39:30] Database updated successfully.
+[2025-12-15 21:39:35] Received Data for Session ID: 4
+[2025-12-15 21:39:35] Image Data Length: 5451
+[2025-12-15 21:39:35] SUCCESS: Saved image to D:\Xampp\htdocs\Vidyaverse\user/evidence/snap_4_1765814975.jpg
+[2025-12-15 21:39:35] Database updated successfully.
+[2025-12-15 21:39:40] Received Data for Session ID: 4
+[2025-12-15 21:39:40] Image Data Length: 6223
+[2025-12-15 21:39:40] SUCCESS: Saved image to D:\Xampp\htdocs\Vidyaverse\user/evidence/snap_4_1765814980.jpg
+[2025-12-15 21:39:40] Database updated successfully.
+[2025-12-15 21:39:45] Received Data for Session ID: 4
+[2025-12-15 21:39:45] Image Data Length: 6003
+[2025-12-15 21:39:45] SUCCESS: Saved image to D:\Xampp\htdocs\Vidyaverse\user/evidence/snap_4_1765814985.jpg
+[2025-12-15 21:39:45] Database updated successfully.
+[2025-12-15 21:39:50] Received Data for Session ID: 4
+[2025-12-15 21:39:50] Image Data Length: 6295
+[2025-12-15 21:39:50] SUCCESS: Saved image to D:\Xampp\htdocs\Vidyaverse\user/evidence/snap_4_1765814990.jpg
+[2025-12-15 21:39:50] Database updated successfully.
+[2025-12-15 21:39:55] Received Data for Session ID: 4
+[2025-12-15 21:39:55] Image Data Length: 6327
+[2025-12-15 21:39:55] SUCCESS: Saved image to D:\Xampp\htdocs\Vidyaverse\user/evidence/snap_4_1765814995.jpg
+[2025-12-15 21:39:55] Database updated successfully.
+[2025-12-15 21:40:00] Received Data for Session ID: 4
+[2025-12-15 21:40:00] Image Data Length: 6063
+[2025-12-15 21:40:00] SUCCESS: Saved image to D:\Xampp\htdocs\Vidyaverse\user/evidence/snap_4_1765815000.jpg
+[2025-12-15 21:40:00] Database updated successfully.
+[2025-12-15 21:40:05] Received Data for Session ID: 4
+[2025-12-15 21:40:05] Image Data Length: 6295
+[2025-12-15 21:40:05] SUCCESS: Saved image to D:\Xampp\htdocs\Vidyaverse\user/evidence/snap_4_1765815005.jpg
+[2025-12-15 21:40:05] Database updated successfully.
+[2025-12-15 21:40:10] Received Data for Session ID: 4
+[2025-12-15 21:40:10] Image Data Length: 6563
+[2025-12-15 21:40:10] SUCCESS: Saved image to D:\Xampp\htdocs\Vidyaverse\user/evidence/snap_4_1765815010.jpg
+[2025-12-15 21:40:10] Database updated successfully.
+[2025-12-15 21:40:15] Received Data for Session ID: 4
+[2025-12-15 21:40:15] Image Data Length: 6679
+[2025-12-15 21:40:15] SUCCESS: Saved image to D:\Xampp\htdocs\Vidyaverse\user/evidence/snap_4_1765815015.jpg
+[2025-12-15 21:40:15] Database updated successfully.
+[2025-12-15 21:40:20] Received Data for Session ID: 4
+[2025-12-15 21:40:20] Image Data Length: 6611
+[2025-12-15 21:40:20] SUCCESS: Saved image to D:\Xampp\htdocs\Vidyaverse\user/evidence/snap_4_1765815020.jpg
+[2025-12-15 21:40:20] Database updated successfully.
+[2025-12-15 21:40:25] Received Data for Session ID: 4
+[2025-12-15 21:40:25] Image Data Length: 6683
+[2025-12-15 21:40:25] SUCCESS: Saved image to D:\Xampp\htdocs\Vidyaverse\user/evidence/snap_4_1765815025.jpg
+[2025-12-15 21:40:25] Database updated successfully.
+[2025-12-15 21:40:30] Received Data for Session ID: 4
+[2025-12-15 21:40:30] Image Data Length: 6211
+[2025-12-15 21:40:30] SUCCESS: Saved image to D:\Xampp\htdocs\Vidyaverse\user/evidence/snap_4_1765815030.jpg
+[2025-12-15 21:40:30] Database updated successfully.
+[2025-12-15 21:40:35] Received Data for Session ID: 4
+[2025-12-15 21:40:35] Image Data Length: 6655
+[2025-12-15 21:40:35] SUCCESS: Saved image to D:\Xampp\htdocs\Vidyaverse\user/evidence/snap_4_1765815035.jpg
+[2025-12-15 21:40:35] Database updated successfully.
+[2025-12-15 21:40:40] Received Data for Session ID: 4
+[2025-12-15 21:40:40] Image Data Length: 6683
+[2025-12-15 21:40:40] SUCCESS: Saved image to D:\Xampp\htdocs\Vidyaverse\user/evidence/snap_4_1765815040.jpg
+[2025-12-15 21:40:40] Database updated successfully.
+[2025-12-15 21:40:45] Received Data for Session ID: 4
+[2025-12-15 21:40:45] Image Data Length: 6575
+[2025-12-15 21:40:45] SUCCESS: Saved image to D:\Xampp\htdocs\Vidyaverse\user/evidence/snap_4_1765815045.jpg
+[2025-12-15 21:40:45] Database updated successfully.
+[2025-12-15 21:40:50] Received Data for Session ID: 4
+[2025-12-15 21:40:50] Image Data Length: 6103
+[2025-12-15 21:40:50] SUCCESS: Saved image to D:\Xampp\htdocs\Vidyaverse\user/evidence/snap_4_1765815050.jpg
+[2025-12-15 21:40:50] Database updated successfully.
+[2025-12-15 21:40:55] Received Data for Session ID: 4
+[2025-12-15 21:40:55] Image Data Length: 6383
+[2025-12-15 21:40:55] SUCCESS: Saved image to D:\Xampp\htdocs\Vidyaverse\user/evidence/snap_4_1765815055.jpg
+[2025-12-15 21:40:55] Database updated successfully.
+[2025-12-15 21:41:00] Received Data for Session ID: 4
+[2025-12-15 21:41:00] Image Data Length: 6691
+[2025-12-15 21:41:00] SUCCESS: Saved image to D:\Xampp\htdocs\Vidyaverse\user/evidence/snap_4_1765815060.jpg
+[2025-12-15 21:41:00] Database updated successfully.
+[2025-12-15 21:41:05] Received Data for Session ID: 4
+[2025-12-15 21:41:05] Image Data Length: 6695
+[2025-12-15 21:41:05] SUCCESS: Saved image to D:\Xampp\htdocs\Vidyaverse\user/evidence/snap_4_1765815065.jpg
+[2025-12-15 21:41:05] Database updated successfully.
+[2025-12-15 21:41:10] Received Data for Session ID: 4
+[2025-12-15 21:41:10] Image Data Length: 6631
+[2025-12-15 21:41:10] SUCCESS: Saved image to D:\Xampp\htdocs\Vidyaverse\user/evidence/snap_4_1765815070.jpg
+[2025-12-15 21:41:10] Database updated successfully.
+[2025-12-15 21:41:15] Received Data for Session ID: 4
+[2025-12-15 21:41:15] Image Data Length: 6751
+[2025-12-15 21:41:15] SUCCESS: Saved image to D:\Xampp\htdocs\Vidyaverse\user/evidence/snap_4_1765815075.jpg
+[2025-12-15 21:41:15] Database updated successfully.
+[2025-12-15 21:41:20] Received Data for Session ID: 4
+[2025-12-15 21:41:20] Image Data Length: 6731
+[2025-12-15 21:41:20] SUCCESS: Saved image to D:\Xampp\htdocs\Vidyaverse\user/evidence/snap_4_1765815080.jpg
+[2025-12-15 21:41:20] Database updated successfully.
+[2025-12-15 21:41:25] Received Data for Session ID: 4
+[2025-12-15 21:41:25] Image Data Length: 6687
+[2025-12-15 21:41:25] SUCCESS: Saved image to D:\Xampp\htdocs\Vidyaverse\user/evidence/snap_4_1765815085.jpg
+[2025-12-15 21:41:25] Database updated successfully.
+[2025-12-15 21:41:30] Received Data for Session ID: 4
+[2025-12-15 21:41:30] Image Data Length: 6795
+[2025-12-15 21:41:30] SUCCESS: Saved image to D:\Xampp\htdocs\Vidyaverse\user/evidence/snap_4_1765815090.jpg
+[2025-12-15 21:41:30] Database updated successfully.
+[2025-12-15 21:41:35] Received Data for Session ID: 4
+[2025-12-15 21:41:35] Image Data Length: 6499
+[2025-12-15 21:41:35] SUCCESS: Saved image to D:\Xampp\htdocs\Vidyaverse\user/evidence/snap_4_1765815095.jpg
+[2025-12-15 21:41:35] Database updated successfully.
+[2025-12-15 21:41:40] Received Data for Session ID: 4
+[2025-12-15 21:41:40] Image Data Length: 6723
+[2025-12-15 21:41:40] SUCCESS: Saved image to D:\Xampp\htdocs\Vidyaverse\user/evidence/snap_4_1765815100.jpg
+[2025-12-15 21:41:40] Database updated successfully.
+[2025-12-15 21:41:45] Received Data for Session ID: 4
+[2025-12-15 21:41:45] Image Data Length: 6595
+[2025-12-15 21:41:45] SUCCESS: Saved image to D:\Xampp\htdocs\Vidyaverse\user/evidence/snap_4_1765815105.jpg
+[2025-12-15 21:41:45] Database updated successfully.
+[2025-12-15 21:41:50] Received Data for Session ID: 4
+[2025-12-15 21:41:50] Image Data Length: 6591
+[2025-12-15 21:41:50] SUCCESS: Saved image to D:\Xampp\htdocs\Vidyaverse\user/evidence/snap_4_1765815110.jpg
+[2025-12-15 21:41:50] Database updated successfully.
+[2025-12-15 21:41:55] Received Data for Session ID: 4
+[2025-12-15 21:41:55] Image Data Length: 6751
+[2025-12-15 21:41:55] SUCCESS: Saved image to D:\Xampp\htdocs\Vidyaverse\user/evidence/snap_4_1765815115.jpg
+[2025-12-15 21:41:55] Database updated successfully.
+[2025-12-15 21:42:00] Received Data for Session ID: 4
+[2025-12-15 21:42:00] Image Data Length: 6819
+[2025-12-15 21:42:00] SUCCESS: Saved image to D:\Xampp\htdocs\Vidyaverse\user/evidence/snap_4_1765815120.jpg
+[2025-12-15 21:42:00] Database updated successfully.
+[2025-12-17 00:20:48] Received Data for Session ID: 5
+[2025-12-17 00:20:48] Image Data Length: 6407
+[2025-12-17 00:20:48] SUCCESS: Saved image to D:\Xampp\htdocs\Vidyaverse\user/evidence/snap_5_1765911048.jpg
+[2025-12-17 00:20:48] Database updated successfully.
+[2025-12-17 00:20:53] Received Data for Session ID: 5
+[2025-12-17 00:20:53] Image Data Length: 8403
+[2025-12-17 00:20:53] SUCCESS: Saved image to D:\Xampp\htdocs\Vidyaverse\user/evidence/snap_5_1765911053.jpg
+[2025-12-17 00:20:53] Database updated successfully.
+[2025-12-17 00:20:58] Received Data for Session ID: 5
+[2025-12-17 00:20:58] Image Data Length: 8915
+[2025-12-17 00:20:58] SUCCESS: Saved image to D:\Xampp\htdocs\Vidyaverse\user/evidence/snap_5_1765911058.jpg
+[2025-12-17 00:20:58] Database updated successfully.
+[2025-12-17 00:21:03] Received Data for Session ID: 5
+[2025-12-17 00:21:03] Image Data Length: 8355
+[2025-12-17 00:21:03] SUCCESS: Saved image to D:\Xampp\htdocs\Vidyaverse\user/evidence/snap_5_1765911063.jpg
+[2025-12-17 00:21:03] Database updated successfully.
+[2025-12-17 00:21:03] Received Data for Session ID: 5
+[2025-12-17 00:21:03] Image Data Length: 8423
+[2025-12-17 00:21:03] SUCCESS: Saved image to D:\Xampp\htdocs\Vidyaverse\user/evidence/snap_5_1765911063.jpg
+[2025-12-17 00:21:03] Database updated successfully.
+[2025-12-17 00:21:08] Received Data for Session ID: 5
+[2025-12-17 00:21:08] Image Data Length: 8659
+[2025-12-17 00:21:08] SUCCESS: Saved image to D:\Xampp\htdocs\Vidyaverse\user/evidence/snap_5_1765911068.jpg
+[2025-12-17 00:21:08] Database updated successfully.
+[2025-12-17 00:21:10] Received Data for Session ID: 5
+[2025-12-17 00:21:10] Image Data Length: 8119
+[2025-12-17 00:21:10] SUCCESS: Saved image to D:\Xampp\htdocs\Vidyaverse\user/evidence/snap_5_1765911070.jpg
+[2025-12-17 00:21:10] Database updated successfully.
+[2025-12-17 00:21:13] Received Data for Session ID: 5
+[2025-12-17 00:21:13] Image Data Length: 8419
+[2025-12-17 00:21:13] SUCCESS: Saved image to D:\Xampp\htdocs\Vidyaverse\user/evidence/snap_5_1765911073.jpg
+[2025-12-17 00:21:13] Database updated successfully.
+[2025-12-17 00:21:18] Received Data for Session ID: 5
+[2025-12-17 00:21:18] Image Data Length: 8547
+[2025-12-17 00:21:18] SUCCESS: Saved image to D:\Xampp\htdocs\Vidyaverse\user/evidence/snap_5_1765911078.jpg
+[2025-12-17 00:21:18] Database updated successfully.
+[2025-12-17 00:21:23] Received Data for Session ID: 5
+[2025-12-17 00:21:23] Image Data Length: 8871
+[2025-12-17 00:21:23] SUCCESS: Saved image to D:\Xampp\htdocs\Vidyaverse\user/evidence/snap_5_1765911083.jpg
+[2025-12-17 00:21:23] Database updated successfully.
+[2025-12-17 00:21:28] Received Data for Session ID: 5
+[2025-12-17 00:21:28] Image Data Length: 8939
+[2025-12-17 00:21:28] SUCCESS: Saved image to D:\Xampp\htdocs\Vidyaverse\user/evidence/snap_5_1765911088.jpg
+[2025-12-17 00:21:28] Database updated successfully.
+[2025-12-17 00:21:33] Received Data for Session ID: 5
+[2025-12-17 00:21:33] Image Data Length: 8959
+[2025-12-17 00:21:33] SUCCESS: Saved image to D:\Xampp\htdocs\Vidyaverse\user/evidence/snap_5_1765911093.jpg
+[2025-12-17 00:21:33] Database updated successfully.
+[2025-12-17 00:21:38] Received Data for Session ID: 5
+[2025-12-17 00:21:38] Image Data Length: 7859
+[2025-12-17 00:21:38] SUCCESS: Saved image to D:\Xampp\htdocs\Vidyaverse\user/evidence/snap_5_1765911098.jpg
+[2025-12-17 00:21:38] Database updated successfully.
+[2025-12-17 00:21:43] Received Data for Session ID: 5
+[2025-12-17 00:21:43] Image Data Length: 8187
+[2025-12-17 00:21:43] SUCCESS: Saved image to D:\Xampp\htdocs\Vidyaverse\user/evidence/snap_5_1765911103.jpg
+[2025-12-17 00:21:43] Database updated successfully.
+[2025-12-17 00:21:48] Received Data for Session ID: 5
+[2025-12-17 00:21:48] Image Data Length: 8303
+[2025-12-17 00:21:48] SUCCESS: Saved image to D:\Xampp\htdocs\Vidyaverse\user/evidence/snap_5_1765911108.jpg
+[2025-12-17 00:21:48] Database updated successfully.
+[2025-12-17 00:21:53] Received Data for Session ID: 5
+[2025-12-17 00:21:53] Image Data Length: 8235
+[2025-12-17 00:21:53] SUCCESS: Saved image to D:\Xampp\htdocs\Vidyaverse\user/evidence/snap_5_1765911113.jpg
+[2025-12-17 00:21:53] Database updated successfully.
+[2025-12-17 00:21:58] Received Data for Session ID: 5
+[2025-12-17 00:21:58] Image Data Length: 8083
+[2025-12-17 00:21:58] SUCCESS: Saved image to D:\Xampp\htdocs\Vidyaverse\user/evidence/snap_5_1765911118.jpg
+[2025-12-17 00:21:58] Database updated successfully.
+[2025-12-17 00:22:03] Received Data for Session ID: 5
+[2025-12-17 00:22:03] Image Data Length: 7795
+[2025-12-17 00:22:03] SUCCESS: Saved image to D:\Xampp\htdocs\Vidyaverse\user/evidence/snap_5_1765911123.jpg
+[2025-12-17 00:22:03] Database updated successfully.
+[2025-12-17 00:22:08] Received Data for Session ID: 5
+[2025-12-17 00:22:08] Image Data Length: 8011
+[2025-12-17 00:22:08] SUCCESS: Saved image to D:\Xampp\htdocs\Vidyaverse\user/evidence/snap_5_1765911128.jpg
+[2025-12-17 00:22:08] Database updated successfully.
+[2025-12-17 00:22:13] Received Data for Session ID: 5
+[2025-12-17 00:22:13] Image Data Length: 7579
+[2025-12-17 00:22:13] SUCCESS: Saved image to D:\Xampp\htdocs\Vidyaverse\user/evidence/snap_5_1765911133.jpg
+[2025-12-17 00:22:13] Database updated successfully.
+[2025-12-17 00:22:18] Received Data for Session ID: 5
+[2025-12-17 00:22:18] Image Data Length: 7555
+[2025-12-17 00:22:18] SUCCESS: Saved image to D:\Xampp\htdocs\Vidyaverse\user/evidence/snap_5_1765911138.jpg
+[2025-12-17 00:22:18] Database updated successfully.
+[2025-12-17 00:22:23] Received Data for Session ID: 5
+[2025-12-17 00:22:23] Image Data Length: 8451
+[2025-12-17 00:22:23] SUCCESS: Saved image to D:\Xampp\htdocs\Vidyaverse\user/evidence/snap_5_1765911143.jpg
+[2025-12-17 00:22:23] Database updated successfully.
+[2025-12-17 00:22:27] Received Data for Session ID: 5
+[2025-12-17 00:22:27] Image Data Length: 7939
+[2025-12-17 00:22:27] SUCCESS: Saved image to D:\Xampp\htdocs\Vidyaverse\user/evidence/snap_5_1765911147.jpg
+[2025-12-17 00:22:27] Database updated successfully.
+[2025-12-17 00:22:28] Received Data for Session ID: 5
+[2025-12-17 00:22:28] Image Data Length: 8375
+[2025-12-17 00:22:28] SUCCESS: Saved image to D:\Xampp\htdocs\Vidyaverse\user/evidence/snap_5_1765911148.jpg
+[2025-12-17 00:22:28] Database updated successfully.
+[2025-12-17 00:22:33] Received Data for Session ID: 5
+[2025-12-17 00:22:33] Image Data Length: 8411
+[2025-12-17 00:22:33] SUCCESS: Saved image to D:\Xampp\htdocs\Vidyaverse\user/evidence/snap_5_1765911153.jpg
+[2025-12-17 00:22:33] Database updated successfully.
+[2025-12-17 00:22:38] Received Data for Session ID: 5
+[2025-12-17 00:22:38] Image Data Length: 7963
+[2025-12-17 00:22:38] SUCCESS: Saved image to D:\Xampp\htdocs\Vidyaverse\user/evidence/snap_5_1765911158.jpg
+[2025-12-17 00:22:38] Database updated successfully.
+[2025-12-17 00:22:43] Received Data for Session ID: 5
+[2025-12-17 00:22:43] Image Data Length: 8423
+[2025-12-17 00:22:43] SUCCESS: Saved image to D:\Xampp\htdocs\Vidyaverse\user/evidence/snap_5_1765911163.jpg
+[2025-12-17 00:22:43] Database updated successfully.
+[2025-12-17 00:22:48] Received Data for Session ID: 5
+[2025-12-17 00:22:48] Image Data Length: 8571
+[2025-12-17 00:22:48] SUCCESS: Saved image to D:\Xampp\htdocs\Vidyaverse\user/evidence/snap_5_1765911168.jpg
+[2025-12-17 00:22:48] Database updated successfully.
+[2025-12-17 00:22:53] Received Data for Session ID: 5
+[2025-12-17 00:22:53] Image Data Length: 7639
+[2025-12-17 00:22:53] SUCCESS: Saved image to D:\Xampp\htdocs\Vidyaverse\user/evidence/snap_5_1765911173.jpg
+[2025-12-17 00:22:53] Database updated successfully.
+[2025-12-17 00:22:58] Received Data for Session ID: 5
+[2025-12-17 00:22:58] Image Data Length: 8023
+[2025-12-17 00:22:58] SUCCESS: Saved image to D:\Xampp\htdocs\Vidyaverse\user/evidence/snap_5_1765911178.jpg
+[2025-12-17 00:22:58] Database updated successfully.
+[2025-12-17 00:23:03] Received Data for Session ID: 5
+[2025-12-17 00:23:03] Image Data Length: 8435
+[2025-12-17 00:23:03] SUCCESS: Saved image to D:\Xampp\htdocs\Vidyaverse\user/evidence/snap_5_1765911183.jpg
+[2025-12-17 00:23:03] Database updated successfully.
+[2025-12-17 00:23:08] Received Data for Session ID: 5
+[2025-12-17 00:23:08] Image Data Length: 8607
+[2025-12-17 00:23:08] SUCCESS: Saved image to D:\Xampp\htdocs\Vidyaverse\user/evidence/snap_5_1765911188.jpg
+[2025-12-17 00:23:08] Database updated successfully.
+[2025-12-17 00:23:13] Received Data for Session ID: 5
+[2025-12-17 00:23:13] Image Data Length: 8303
+[2025-12-17 00:23:13] SUCCESS: Saved image to D:\Xampp\htdocs\Vidyaverse\user/evidence/snap_5_1765911193.jpg
+[2025-12-17 00:23:13] Database updated successfully.
+[2025-12-17 00:23:18] Received Data for Session ID: 5
+[2025-12-17 00:23:18] Image Data Length: 8239
+[2025-12-17 00:23:18] SUCCESS: Saved image to D:\Xampp\htdocs\Vidyaverse\user/evidence/snap_5_1765911198.jpg
+[2025-12-17 00:23:18] Database updated successfully.
+[2025-12-17 00:23:23] Received Data for Session ID: 5
+[2025-12-17 00:23:23] Image Data Length: 7715
+[2025-12-17 00:23:23] SUCCESS: Saved image to D:\Xampp\htdocs\Vidyaverse\user/evidence/snap_5_1765911203.jpg
+[2025-12-17 00:23:23] Database updated successfully.
+[2025-12-17 00:23:27] Received Data for Session ID: 5
+[2025-12-17 00:23:27] Image Data Length: 8751
+[2025-12-17 00:23:27] SUCCESS: Saved image to D:\Xampp\htdocs\Vidyaverse\user/evidence/snap_5_1765911207.jpg
+[2025-12-17 00:23:27] Database updated successfully.
+[2025-12-17 00:23:28] Received Data for Session ID: 5
+[2025-12-17 00:23:28] Image Data Length: 8583
+[2025-12-17 00:23:28] SUCCESS: Saved image to D:\Xampp\htdocs\Vidyaverse\user/evidence/snap_5_1765911208.jpg
+[2025-12-17 00:23:28] Database updated successfully.
+[2025-12-17 00:23:33] Received Data for Session ID: 5
+[2025-12-17 00:23:33] Image Data Length: 8515
+[2025-12-17 00:23:33] SUCCESS: Saved image to D:\Xampp\htdocs\Vidyaverse\user/evidence/snap_5_1765911213.jpg
+[2025-12-17 00:23:33] Database updated successfully.
+[2025-12-17 00:23:38] Received Data for Session ID: 5
+[2025-12-17 00:23:38] Image Data Length: 8391
+[2025-12-17 00:23:38] SUCCESS: Saved image to D:\Xampp\htdocs\Vidyaverse\user/evidence/snap_5_1765911218.jpg
+[2025-12-17 00:23:38] Database updated successfully.
+[2025-12-17 00:23:43] Received Data for Session ID: 5
+[2025-12-17 00:23:43] Image Data Length: 7927
+[2025-12-17 00:23:43] SUCCESS: Saved image to D:\Xampp\htdocs\Vidyaverse\user/evidence/snap_5_1765911223.jpg
+[2025-12-17 00:23:43] Database updated successfully.
+[2025-12-17 00:23:48] Received Data for Session ID: 5
+[2025-12-17 00:23:48] Image Data Length: 8723
+[2025-12-17 00:23:48] SUCCESS: Saved image to D:\Xampp\htdocs\Vidyaverse\user/evidence/snap_5_1765911228.jpg
+[2025-12-17 00:23:48] Database updated successfully.
+[2025-12-17 00:23:53] Received Data for Session ID: 5
+[2025-12-17 00:23:53] Image Data Length: 8751
+[2025-12-17 00:23:53] SUCCESS: Saved image to D:\Xampp\htdocs\Vidyaverse\user/evidence/snap_5_1765911233.jpg
+[2025-12-17 00:23:53] Database updated successfully.
+[2025-12-17 00:23:58] Received Data for Session ID: 5
+[2025-12-17 00:23:58] Image Data Length: 8535
+[2025-12-17 00:23:58] SUCCESS: Saved image to D:\Xampp\htdocs\Vidyaverse\user/evidence/snap_5_1765911238.jpg
+[2025-12-17 00:23:58] Database updated successfully.
+[2025-12-17 00:24:03] Received Data for Session ID: 5
+[2025-12-17 00:24:03] Image Data Length: 8535
+[2025-12-17 00:24:03] SUCCESS: Saved image to D:\Xampp\htdocs\Vidyaverse\user/evidence/snap_5_1765911243.jpg
+[2025-12-17 00:24:03] Database updated successfully.
+[2025-12-17 00:24:08] Received Data for Session ID: 5
+[2025-12-17 00:24:08] Image Data Length: 8379
+[2025-12-17 00:24:08] SUCCESS: Saved image to D:\Xampp\htdocs\Vidyaverse\user/evidence/snap_5_1765911248.jpg
+[2025-12-17 00:24:08] Database updated successfully.
+[2025-12-17 00:24:13] Received Data for Session ID: 5
+[2025-12-17 00:24:13] Image Data Length: 8871
+[2025-12-17 00:24:13] SUCCESS: Saved image to D:\Xampp\htdocs\Vidyaverse\user/evidence/snap_5_1765911253.jpg
+[2025-12-17 00:24:13] Database updated successfully.
+[2025-12-17 00:24:18] Received Data for Session ID: 5
+[2025-12-17 00:24:18] Image Data Length: 8907
+[2025-12-17 00:24:18] SUCCESS: Saved image to D:\Xampp\htdocs\Vidyaverse\user/evidence/snap_5_1765911258.jpg
+[2025-12-17 00:24:18] Database updated successfully.
+[2025-12-17 00:24:23] Received Data for Session ID: 5
+[2025-12-17 00:24:23] Image Data Length: 8907
+[2025-12-17 00:24:23] SUCCESS: Saved image to D:\Xampp\htdocs\Vidyaverse\user/evidence/snap_5_1765911263.jpg
+[2025-12-17 00:24:23] Database updated successfully.
+[2025-12-17 00:24:28] Received Data for Session ID: 5
+[2025-12-17 00:24:28] Image Data Length: 8367
+[2025-12-17 00:24:28] SUCCESS: Saved image to D:\Xampp\htdocs\Vidyaverse\user/evidence/snap_5_1765911268.jpg
+[2025-12-17 00:24:28] Database updated successfully.
+[2025-12-17 00:24:33] Received Data for Session ID: 5
+[2025-12-17 00:24:33] Image Data Length: 8515
+[2025-12-17 00:24:33] SUCCESS: Saved image to D:\Xampp\htdocs\Vidyaverse\user/evidence/snap_5_1765911273.jpg
+[2025-12-17 00:24:33] Database updated successfully.
+[2025-12-17 00:24:38] Received Data for Session ID: 5
+[2025-12-17 00:24:38] Image Data Length: 8751
+[2025-12-17 00:24:38] SUCCESS: Saved image to D:\Xampp\htdocs\Vidyaverse\user/evidence/snap_5_1765911278.jpg
+[2025-12-17 00:24:38] Database updated successfully.
+[2025-12-17 00:24:43] Received Data for Session ID: 5
+[2025-12-17 00:24:43] Image Data Length: 8063
+[2025-12-17 00:24:43] SUCCESS: Saved image to D:\Xampp\htdocs\Vidyaverse\user/evidence/snap_5_1765911283.jpg
+[2025-12-17 00:24:43] Database updated successfully.
+[2025-12-17 00:24:48] Received Data for Session ID: 5
+[2025-12-17 00:24:48] Image Data Length: 8323
+[2025-12-17 00:24:48] SUCCESS: Saved image to D:\Xampp\htdocs\Vidyaverse\user/evidence/snap_5_1765911288.jpg
+[2025-12-17 00:24:48] Database updated successfully.
+[2025-12-17 00:24:53] Received Data for Session ID: 5
+[2025-12-17 00:24:53] Image Data Length: 7935
+[2025-12-17 00:24:53] SUCCESS: Saved image to D:\Xampp\htdocs\Vidyaverse\user/evidence/snap_5_1765911293.jpg
+[2025-12-17 00:24:53] Database updated successfully.
+[2025-12-17 00:24:58] Received Data for Session ID: 5
+[2025-12-17 00:24:58] Image Data Length: 7859
+[2025-12-17 00:24:58] SUCCESS: Saved image to D:\Xampp\htdocs\Vidyaverse\user/evidence/snap_5_1765911298.jpg
+[2025-12-17 00:24:58] Database updated successfully.
+[2025-12-17 00:25:03] Received Data for Session ID: 5
+[2025-12-17 00:25:03] Image Data Length: 8043
+[2025-12-17 00:25:03] SUCCESS: Saved image to D:\Xampp\htdocs\Vidyaverse\user/evidence/snap_5_1765911303.jpg
+[2025-12-17 00:25:03] Database updated successfully.
+[2025-12-17 00:25:08] Received Data for Session ID: 5
+[2025-12-17 00:25:08] Image Data Length: 8395
+[2025-12-17 00:25:08] SUCCESS: Saved image to D:\Xampp\htdocs\Vidyaverse\user/evidence/snap_5_1765911308.jpg
+[2025-12-17 00:25:08] Database updated successfully.
+[2025-12-17 00:25:13] Received Data for Session ID: 5
+[2025-12-17 00:25:13] Image Data Length: 7803
+[2025-12-17 00:25:13] SUCCESS: Saved image to D:\Xampp\htdocs\Vidyaverse\user/evidence/snap_5_1765911313.jpg
+[2025-12-17 00:25:13] Database updated successfully.
+[2025-12-17 00:25:18] Received Data for Session ID: 5
+[2025-12-17 00:25:18] Image Data Length: 8647
+[2025-12-17 00:25:18] SUCCESS: Saved image to D:\Xampp\htdocs\Vidyaverse\user/evidence/snap_5_1765911318.jpg
+[2025-12-17 00:25:18] Database updated successfully.
+[2025-12-17 00:25:23] Received Data for Session ID: 5
+[2025-12-17 00:25:23] Image Data Length: 8159
+[2025-12-17 00:25:23] SUCCESS: Saved image to D:\Xampp\htdocs\Vidyaverse\user/evidence/snap_5_1765911323.jpg
+[2025-12-17 00:25:23] Database updated successfully.
+[2025-12-17 00:25:28] Received Data for Session ID: 5
+[2025-12-17 00:25:28] Image Data Length: 8723
+[2025-12-17 00:25:28] SUCCESS: Saved image to D:\Xampp\htdocs\Vidyaverse\user/evidence/snap_5_1765911328.jpg
+[2025-12-17 00:25:28] Database updated successfully.
+[2025-12-17 00:25:33] Received Data for Session ID: 5
+[2025-12-17 00:25:33] Image Data Length: 8695
+[2025-12-17 00:25:33] SUCCESS: Saved image to D:\Xampp\htdocs\Vidyaverse\user/evidence/snap_5_1765911333.jpg
+[2025-12-17 00:25:33] Database updated successfully.
+[2025-12-17 00:25:38] Received Data for Session ID: 5
+[2025-12-17 00:25:38] Image Data Length: 8463
+[2025-12-17 00:25:38] SUCCESS: Saved image to D:\Xampp\htdocs\Vidyaverse\user/evidence/snap_5_1765911338.jpg
+[2025-12-17 00:25:38] Database updated successfully.
+[2025-12-17 00:25:43] Received Data for Session ID: 5
+[2025-12-17 00:25:43] Image Data Length: 8483
+[2025-12-17 00:25:43] SUCCESS: Saved image to D:\Xampp\htdocs\Vidyaverse\user/evidence/snap_5_1765911343.jpg
+[2025-12-17 00:25:43] Database updated successfully.
+[2025-12-17 00:25:48] Received Data for Session ID: 5
+[2025-12-17 00:25:48] Image Data Length: 8223
+[2025-12-17 00:25:48] SUCCESS: Saved image to D:\Xampp\htdocs\Vidyaverse\user/evidence/snap_5_1765911348.jpg
+[2025-12-17 00:25:48] Database updated successfully.
+[2025-12-17 00:25:53] Received Data for Session ID: 5
+[2025-12-17 00:25:53] Image Data Length: 8223
+[2025-12-17 00:25:53] SUCCESS: Saved image to D:\Xampp\htdocs\Vidyaverse\user/evidence/snap_5_1765911353.jpg
+[2025-12-17 00:25:53] Database updated successfully.
+[2025-12-17 00:25:58] Received Data for Session ID: 5
+[2025-12-17 00:25:58] Image Data Length: 8427
+[2025-12-17 00:25:58] SUCCESS: Saved image to D:\Xampp\htdocs\Vidyaverse\user/evidence/snap_5_1765911358.jpg
+[2025-12-17 00:25:58] Database updated successfully.
+[2025-12-17 00:26:03] Received Data for Session ID: 5
+[2025-12-17 00:26:03] Image Data Length: 7855
+[2025-12-17 00:26:03] SUCCESS: Saved image to D:\Xampp\htdocs\Vidyaverse\user/evidence/snap_5_1765911363.jpg
+[2025-12-17 00:26:03] Database updated successfully.
+[2025-12-17 00:26:08] Received Data for Session ID: 5
+[2025-12-17 00:26:08] Image Data Length: 8863
+[2025-12-17 00:26:08] SUCCESS: Saved image to D:\Xampp\htdocs\Vidyaverse\user/evidence/snap_5_1765911368.jpg
+[2025-12-17 00:26:08] Database updated successfully.
+[2025-12-17 00:26:13] Received Data for Session ID: 5
+[2025-12-17 00:26:13] Image Data Length: 7947
+[2025-12-17 00:26:13] SUCCESS: Saved image to D:\Xampp\htdocs\Vidyaverse\user/evidence/snap_5_1765911373.jpg
+[2025-12-17 00:26:13] Database updated successfully.
+[2025-12-17 00:26:18] Received Data for Session ID: 5
+[2025-12-17 00:26:18] Image Data Length: 7935
+[2025-12-17 00:26:18] SUCCESS: Saved image to D:\Xampp\htdocs\Vidyaverse\user/evidence/snap_5_1765911378.jpg
+[2025-12-17 00:26:18] Database updated successfully.
+[2025-12-17 00:26:23] Received Data for Session ID: 5
+[2025-12-17 00:26:23] Image Data Length: 8855
+[2025-12-17 00:26:23] SUCCESS: Saved image to D:\Xampp\htdocs\Vidyaverse\user/evidence/snap_5_1765911383.jpg
+[2025-12-17 00:26:23] Database updated successfully.
+[2025-12-17 00:26:25] Received Data for Session ID: 5
+[2025-12-17 00:26:25] Image Data Length: 8975
+[2025-12-17 00:26:25] SUCCESS: Saved image to D:\Xampp\htdocs\Vidyaverse\user/evidence/snap_5_1765911385.jpg
+[2025-12-17 00:26:25] Database updated successfully.
+[2025-12-17 00:30:47] Received Data for Session ID: 5
+[2025-12-17 00:30:47] Image Data Length: 8435
+[2025-12-17 00:30:47] SUCCESS: Saved image to D:\Xampp\htdocs\Vidyaverse\user/evidence/snap_5_1765911647.jpg
+[2025-12-17 00:30:47] Database updated successfully.
+[2025-12-17 00:38:50] Received Data for Session ID: 5
+[2025-12-17 00:38:50] Image Data Length: 8763
+[2025-12-17 00:38:50] SUCCESS: Saved image to D:\Xampp\htdocs\Vidyaverse\user/evidence/snap_5_1765912130.jpg
+[2025-12-17 00:38:50] Database updated successfully.
+[2025-12-17 00:38:50] Received Data for Session ID: 5
+[2025-12-17 00:38:50] Image Data Length: 8763
+[2025-12-17 00:38:50] SUCCESS: Saved image to D:\Xampp\htdocs\Vidyaverse\user/evidence/snap_5_1765912130.jpg
+[2025-12-17 00:38:50] Database updated successfully.
+[2025-12-17 00:44:07] Received Data for Session ID: 5
+[2025-12-17 00:44:07] Image Data Length: 8651
+[2025-12-17 00:44:07] SUCCESS: Saved image to D:\Xampp\htdocs\Vidyaverse\user/evidence/snap_5_1765912447.jpg
+[2025-12-17 00:44:07] Database updated successfully.
+[2025-12-17 00:44:12] Received Data for Session ID: 5
+[2025-12-17 00:44:12] Image Data Length: 8547
+[2025-12-17 00:44:12] SUCCESS: Saved image to D:\Xampp\htdocs\Vidyaverse\user/evidence/snap_5_1765912452.jpg
+[2025-12-17 00:44:12] Database updated successfully.
+[2025-12-17 00:44:16] Received Data for Session ID: 5
+[2025-12-17 00:44:16] Image Data Length: 8551
+[2025-12-17 00:44:16] SUCCESS: Saved image to D:\Xampp\htdocs\Vidyaverse\user/evidence/snap_5_1765912456.jpg
+[2025-12-17 00:44:16] Database updated successfully.
+[2025-12-17 00:47:47] Received Data for Session ID: 5
+[2025-12-17 00:47:47] Image Data Length: 8119
+[2025-12-17 00:47:47] SUCCESS: Saved image to D:\Xampp\htdocs\Vidyaverse\user/evidence/snap_5_1765912667.jpg
+[2025-12-17 00:47:47] Database updated successfully.
+[2025-12-17 00:47:52] Received Data for Session ID: 5
+[2025-12-17 00:47:52] Image Data Length: 8251
+[2025-12-17 00:47:52] SUCCESS: Saved image to D:\Xampp\htdocs\Vidyaverse\user/evidence/snap_5_1765912672.jpg
+[2025-12-17 00:47:52] Database updated successfully.
+[2025-12-17 00:47:55] Received Data for Session ID: 5
+[2025-12-17 00:47:55] Image Data Length: 8527
+[2025-12-17 00:47:55] SUCCESS: Saved image to D:\Xampp\htdocs\Vidyaverse\user/evidence/snap_5_1765912675.jpg
+[2025-12-17 00:47:55] Database updated successfully.
+[2025-12-17 00:49:50] Received Data for Session ID: 5
+[2025-12-17 00:49:50] Image Data Length: 6631
+[2025-12-17 00:49:50] SUCCESS: Saved image to D:\Xampp\htdocs\Vidyaverse\user/evidence/snap_5_1765912790.jpg
+[2025-12-17 00:49:50] Database updated successfully.
+[2025-12-17 00:49:54] Received Data for Session ID: 5
+[2025-12-17 00:49:54] Image Data Length: 6175
+[2025-12-17 00:49:54] SUCCESS: Saved image to D:\Xampp\htdocs\Vidyaverse\user/evidence/snap_5_1765912794.jpg
+[2025-12-17 00:49:54] Database updated successfully.
+[2025-12-17 00:49:59] Received Data for Session ID: 5
+[2025-12-17 00:49:59] Image Data Length: 6475
+[2025-12-17 00:49:59] SUCCESS: Saved image to D:\Xampp\htdocs\Vidyaverse\user/evidence/snap_5_1765912799.jpg
+[2025-12-17 00:49:59] Database updated successfully.
+[2025-12-17 00:50:04] Received Data for Session ID: 5
+[2025-12-17 00:50:04] Image Data Length: 6567
+[2025-12-17 00:50:04] SUCCESS: Saved image to D:\Xampp\htdocs\Vidyaverse\user/evidence/snap_5_1765912804.jpg
+[2025-12-17 00:50:04] Database updated successfully.
+[2025-12-17 00:50:06] Received Data for Session ID: 5
+[2025-12-17 00:50:06] Image Data Length: 6679
+[2025-12-17 00:50:06] SUCCESS: Saved image to D:\Xampp\htdocs\Vidyaverse\user/evidence/snap_5_1765912806.jpg
+[2025-12-17 00:50:06] Database updated successfully.
+[2025-12-17 00:50:09] Received Data for Session ID: 5
+[2025-12-17 00:50:09] Image Data Length: 7471
+[2025-12-17 00:50:09] SUCCESS: Saved image to D:\Xampp\htdocs\Vidyaverse\user/evidence/snap_5_1765912809.jpg
+[2025-12-17 00:50:09] Database updated successfully.
+[2025-12-17 00:50:14] Received Data for Session ID: 5
+[2025-12-17 00:50:14] Image Data Length: 8439
+[2025-12-17 00:50:14] SUCCESS: Saved image to D:\Xampp\htdocs\Vidyaverse\user/evidence/snap_5_1765912814.jpg
+[2025-12-17 00:50:14] Database updated successfully.
+[2025-12-17 00:50:19] Received Data for Session ID: 5
+[2025-12-17 00:50:19] Image Data Length: 8239
+[2025-12-17 00:50:19] SUCCESS: Saved image to D:\Xampp\htdocs\Vidyaverse\user/evidence/snap_5_1765912819.jpg
+[2025-12-17 00:50:19] Database updated successfully.
+[2025-12-17 00:50:24] Received Data for Session ID: 5
+[2025-12-17 00:50:24] Image Data Length: 8743
+[2025-12-17 00:50:24] SUCCESS: Saved image to D:\Xampp\htdocs\Vidyaverse\user/evidence/snap_5_1765912824.jpg
+[2025-12-17 00:50:24] Database updated successfully.
+[2025-12-17 00:50:25] Received Data for Session ID: 5
+[2025-12-17 00:50:25] Image Data Length: 8875
+[2025-12-17 00:50:25] SUCCESS: Saved image to D:\Xampp\htdocs\Vidyaverse\user/evidence/snap_5_1765912825.jpg
+[2025-12-17 00:50:25] Database updated successfully.
+[2025-12-17 00:50:27] Received Data for Session ID: 5
+[2025-12-17 00:50:27] Image Data Length: 8307
+[2025-12-17 00:50:27] SUCCESS: Saved image to D:\Xampp\htdocs\Vidyaverse\user/evidence/snap_5_1765912827.jpg
+[2025-12-17 00:50:27] Database updated successfully.
+[2025-12-17 00:50:30] Received Data for Session ID: 5
+[2025-12-17 00:50:30] Image Data Length: 7539
+[2025-12-17 00:50:30] SUCCESS: Saved image to D:\Xampp\htdocs\Vidyaverse\user/evidence/snap_5_1765912830.jpg
+[2025-12-17 00:50:30] Database updated successfully.
+[2025-12-17 00:50:35] Received Data for Session ID: 5
+[2025-12-17 00:50:35] Image Data Length: 8639
+[2025-12-17 00:50:35] SUCCESS: Saved image to D:\Xampp\htdocs\Vidyaverse\user/evidence/snap_5_1765912835.jpg
+[2025-12-17 00:50:35] Database updated successfully.
+[2025-12-17 00:50:40] Received Data for Session ID: 5
+[2025-12-17 00:50:40] Image Data Length: 8159
+[2025-12-17 00:50:40] SUCCESS: Saved image to D:\Xampp\htdocs\Vidyaverse\user/evidence/snap_5_1765912840.jpg
+[2025-12-17 00:50:40] Database updated successfully.
+[2025-12-17 00:50:45] Received Data for Session ID: 5
+[2025-12-17 00:50:45] Image Data Length: 8151
+[2025-12-17 00:50:45] SUCCESS: Saved image to D:\Xampp\htdocs\Vidyaverse\user/evidence/snap_5_1765912845.jpg
+[2025-12-17 00:50:45] Database updated successfully.
+[2025-12-17 00:50:45] Received Data for Session ID: 5
+[2025-12-17 00:50:45] Image Data Length: 8375
+[2025-12-17 00:50:45] SUCCESS: Saved image to D:\Xampp\htdocs\Vidyaverse\user/evidence/snap_5_1765912845.jpg
+[2025-12-17 00:50:45] Database updated successfully.
+[2025-12-21 23:40:43] Received Data for Session ID: 5
+[2025-12-21 23:40:43] Image Data Length: 6903
+[2025-12-21 23:40:43] SUCCESS: Saved image to D:\Xampp\htdocs\Vidyaverse\user/evidence/snap_5_1766340643.jpg
+[2025-12-21 23:40:43] Database updated successfully.
+[2025-12-21 23:40:48] Received Data for Session ID: 5
+[2025-12-21 23:40:48] Image Data Length: 7219
+[2025-12-21 23:40:48] SUCCESS: Saved image to D:\Xampp\htdocs\Vidyaverse\user/evidence/snap_5_1766340648.jpg
+[2025-12-21 23:40:48] Database updated successfully.
+[2025-12-21 23:40:52] Received Data for Session ID: 5
+[2025-12-21 23:40:52] Image Data Length: 7255
+[2025-12-21 23:40:52] SUCCESS: Saved image to D:\Xampp\htdocs\Vidyaverse\user/evidence/snap_5_1766340652.jpg
+[2025-12-21 23:40:52] Database updated successfully.
+[2025-12-21 23:40:53] Received Data for Session ID: 5
+[2025-12-21 23:40:53] Image Data Length: 6631
+[2025-12-21 23:40:53] SUCCESS: Saved image to D:\Xampp\htdocs\Vidyaverse\user/evidence/snap_5_1766340653.jpg
+[2025-12-21 23:40:54] Database updated successfully.
+[2025-12-21 23:40:59] Received Data for Session ID: 5
+[2025-12-21 23:40:59] Image Data Length: 7507
+[2025-12-21 23:40:59] SUCCESS: Saved image to D:\Xampp\htdocs\Vidyaverse\user/evidence/snap_5_1766340659.jpg
+[2025-12-21 23:40:59] Database updated successfully.
+[2025-12-21 23:41:04] Received Data for Session ID: 5
+[2025-12-21 23:41:04] Image Data Length: 7387
+[2025-12-21 23:41:04] SUCCESS: Saved image to D:\Xampp\htdocs\Vidyaverse\user/evidence/snap_5_1766340664.jpg
+[2025-12-21 23:41:04] Database updated successfully.
+[2025-12-21 23:41:08] Received Data for Session ID: 5
+[2025-12-21 23:41:08] Image Data Length: 6911
+[2025-12-21 23:41:08] SUCCESS: Saved image to D:\Xampp\htdocs\Vidyaverse\user/evidence/snap_5_1766340668.jpg
+[2025-12-21 23:41:09] Database updated successfully.
+[2025-12-21 23:41:14] Received Data for Session ID: 5
+[2025-12-21 23:41:14] Image Data Length: 7415
+[2025-12-21 23:41:14] SUCCESS: Saved image to D:\Xampp\htdocs\Vidyaverse\user/evidence/snap_5_1766340674.jpg
+[2025-12-21 23:41:14] Database updated successfully.
+[2025-12-21 23:41:18] Received Data for Session ID: 5
+[2025-12-21 23:41:18] Image Data Length: 7299
+[2025-12-21 23:41:18] SUCCESS: Saved image to D:\Xampp\htdocs\Vidyaverse\user/evidence/snap_5_1766340678.jpg
+[2025-12-21 23:41:18] Database updated successfully.
+[2025-12-21 23:41:18] Received Data for Session ID: 5
+[2025-12-21 23:41:18] Image Data Length: 7703
+[2025-12-21 23:41:18] SUCCESS: Saved image to D:\Xampp\htdocs\Vidyaverse\user/evidence/snap_5_1766340678.jpg
+[2025-12-21 23:41:18] Database updated successfully.
+[2025-12-21 23:41:23] Received Data for Session ID: 5
+[2025-12-21 23:41:23] Image Data Length: 6847
+[2025-12-21 23:41:24] SUCCESS: Saved image to D:\Xampp\htdocs\Vidyaverse\user/evidence/snap_5_1766340683.jpg
+[2025-12-21 23:41:24] Database updated successfully.
+[2025-12-21 23:41:29] Received Data for Session ID: 5
+[2025-12-21 23:41:29] Image Data Length: 6555
+[2025-12-21 23:41:29] SUCCESS: Saved image to D:\Xampp\htdocs\Vidyaverse\user/evidence/snap_5_1766340689.jpg
+[2025-12-21 23:41:29] Database updated successfully.
+[2025-12-21 23:41:34] Received Data for Session ID: 5
+[2025-12-21 23:41:34] Image Data Length: 7831
+[2025-12-21 23:41:34] SUCCESS: Saved image to D:\Xampp\htdocs\Vidyaverse\user/evidence/snap_5_1766340694.jpg
+[2025-12-21 23:41:34] Database updated successfully.
+[2025-12-21 23:41:39] Received Data for Session ID: 5
+[2025-12-21 23:41:39] Image Data Length: 8527
+[2025-12-21 23:41:39] SUCCESS: Saved image to D:\Xampp\htdocs\Vidyaverse\user/evidence/snap_5_1766340699.jpg
+[2025-12-21 23:41:39] Database updated successfully.
+[2025-12-21 23:41:44] Received Data for Session ID: 5
+[2025-12-21 23:41:44] Image Data Length: 9147
+[2025-12-21 23:41:44] SUCCESS: Saved image to D:\Xampp\htdocs\Vidyaverse\user/evidence/snap_5_1766340704.jpg
+[2025-12-21 23:41:44] Database updated successfully.
+[2025-12-21 23:41:49] Received Data for Session ID: 5
+[2025-12-21 23:41:49] Image Data Length: 6875
+[2025-12-21 23:41:49] SUCCESS: Saved image to D:\Xampp\htdocs\Vidyaverse\user/evidence/snap_5_1766340709.jpg
+[2025-12-21 23:41:49] Database updated successfully.
+[2025-12-21 23:41:53] Received Data for Session ID: 5
+[2025-12-21 23:41:53] Image Data Length: 8251
+[2025-12-21 23:41:53] SUCCESS: Saved image to D:\Xampp\htdocs\Vidyaverse\user/evidence/snap_5_1766340713.jpg
+[2025-12-21 23:41:53] Database updated successfully.
+[2025-12-21 23:41:57] Received Data for Session ID: 5
+[2025-12-21 23:41:57] Image Data Length: 8699
+[2025-12-21 23:41:57] SUCCESS: Saved image to D:\Xampp\htdocs\Vidyaverse\user/evidence/snap_5_1766340717.jpg
+[2025-12-21 23:41:57] Database updated successfully.
+[2025-12-21 23:44:53] Received Data for Session ID: 6
+[2025-12-21 23:44:53] Image Data Length: 7247
+[2025-12-21 23:44:53] SUCCESS: Saved image to D:\Xampp\htdocs\Vidyaverse\user/evidence/snap_6_1766340893.jpg
+[2025-12-21 23:44:53] Database updated successfully.
+[2025-12-21 23:44:55] Received Data for Session ID: 6
+[2025-12-21 23:44:55] Image Data Length: 7075
+[2025-12-21 23:44:55] SUCCESS: Saved image to D:\Xampp\htdocs\Vidyaverse\user/evidence/snap_6_1766340895.jpg
+[2025-12-21 23:44:55] Database updated successfully.
+[2025-12-21 23:44:59] Received Data for Session ID: 6
+[2025-12-21 23:44:59] Image Data Length: 6903
+[2025-12-21 23:44:59] SUCCESS: Saved image to D:\Xampp\htdocs\Vidyaverse\user/evidence/snap_6_1766340899.jpg
+[2025-12-21 23:44:59] Database updated successfully.
+[2025-12-21 23:45:04] Received Data for Session ID: 6
+[2025-12-21 23:45:04] Image Data Length: 7283
+[2025-12-21 23:45:04] SUCCESS: Saved image to D:\Xampp\htdocs\Vidyaverse\user/evidence/snap_6_1766340904.jpg
+[2025-12-21 23:45:04] Database updated successfully.
+[2025-12-21 23:45:09] Received Data for Session ID: 6
+[2025-12-21 23:45:09] Image Data Length: 7135
+[2025-12-21 23:45:09] SUCCESS: Saved image to D:\Xampp\htdocs\Vidyaverse\user/evidence/snap_6_1766340909.jpg
+[2025-12-21 23:45:09] Database updated successfully.
+[2025-12-21 23:45:13] Received Data for Session ID: 6
+[2025-12-21 23:45:13] Image Data Length: 6703
+[2025-12-21 23:45:13] SUCCESS: Saved image to D:\Xampp\htdocs\Vidyaverse\user/evidence/snap_6_1766340913.jpg
+[2025-12-21 23:45:13] Database updated successfully.
+[2025-12-21 23:45:18] Received Data for Session ID: 6
+[2025-12-21 23:45:18] Image Data Length: 7003
+[2025-12-21 23:45:18] SUCCESS: Saved image to D:\Xampp\htdocs\Vidyaverse\user/evidence/snap_6_1766340918.jpg
+[2025-12-21 23:45:18] Database updated successfully.
+[2025-12-21 23:45:23] Received Data for Session ID: 6
+[2025-12-21 23:45:23] Image Data Length: 7315
+[2025-12-21 23:45:23] SUCCESS: Saved image to D:\Xampp\htdocs\Vidyaverse\user/evidence/snap_6_1766340923.jpg
+[2025-12-21 23:45:23] Database updated successfully.
+[2025-12-21 23:45:28] Received Data for Session ID: 6
+[2025-12-21 23:45:28] Image Data Length: 6927
+[2025-12-21 23:45:28] SUCCESS: Saved image to D:\Xampp\htdocs\Vidyaverse\user/evidence/snap_6_1766340928.jpg
+[2025-12-21 23:45:28] Database updated successfully.
+[2025-12-21 23:45:30] Received Data for Session ID: 6
+[2025-12-21 23:45:30] Image Data Length: 6707
+[2025-12-21 23:45:30] SUCCESS: Saved image to D:\Xampp\htdocs\Vidyaverse\user/evidence/snap_6_1766340930.jpg
+[2025-12-21 23:45:30] Database updated successfully.
+[2025-12-21 23:45:34] Received Data for Session ID: 6
+[2025-12-21 23:45:34] Image Data Length: 6311
+[2025-12-21 23:45:34] SUCCESS: Saved image to D:\Xampp\htdocs\Vidyaverse\user/evidence/snap_6_1766340934.jpg
+[2025-12-21 23:45:34] Database updated successfully.
+[2025-12-21 23:45:39] Received Data for Session ID: 6
+[2025-12-21 23:45:39] Image Data Length: 6547
+[2025-12-21 23:45:39] SUCCESS: Saved image to D:\Xampp\htdocs\Vidyaverse\user/evidence/snap_6_1766340939.jpg
+[2025-12-21 23:45:39] Database updated successfully.
+[2025-12-21 23:45:43] Received Data for Session ID: 6
+[2025-12-21 23:45:43] Image Data Length: 7519
+[2025-12-21 23:45:43] SUCCESS: Saved image to D:\Xampp\htdocs\Vidyaverse\user/evidence/snap_6_1766340943.jpg
+[2025-12-21 23:45:43] Database updated successfully.
+[2025-12-21 23:45:48] Received Data for Session ID: 6
+[2025-12-21 23:45:48] Image Data Length: 6779
+[2025-12-21 23:45:48] SUCCESS: Saved image to D:\Xampp\htdocs\Vidyaverse\user/evidence/snap_6_1766340948.jpg
+[2025-12-21 23:45:48] Database updated successfully.
+[2025-12-21 23:45:52] Received Data for Session ID: 6
+[2025-12-21 23:45:52] Image Data Length: 7051
+[2025-12-21 23:45:52] SUCCESS: Saved image to D:\Xampp\htdocs\Vidyaverse\user/evidence/snap_6_1766340952.jpg
+[2025-12-21 23:45:52] Database updated successfully.
